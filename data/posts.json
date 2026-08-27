@@ -2,6 +2,20 @@
   "_readme": "این فایل، لیست مقالات وبلاگ رو مدیریت می‌کنه (هم در صفحه اصلی و هم در صفحه‌ی وبلاگ). برای افزودن مقاله‌ی جدید: ۱) یک فایل html جدید برای متن کامل مقاله در پوشه‌ی blog/ (و نسخه انگلیسی در en/blog/) بساز — می‌توانی از blog/lean-construction-chist.html به‌عنوان قالب استفاده کنی. ۲) یک آبجکت جدید به آرایه‌ی posts زیر اضافه کن و status را 'published' بگذار. جدیدترین مقاله را همیشه در ابتدای آرایه قرار بده (ترتیب نمایش = ترتیب آرایه). برای آیکون از یکی از این مقادیر استفاده کن: lean, pm, km, risk, training, expert — یا آن را خالی بگذار تا آیکون پیش‌فرض استفاده شود.",
   "posts": [
     {
+      "id": "km-mistakes",
+      "status": "published",
+      "date": "2026-08-27",
+      "icon": "km",
+      "tag_fa": "KNOWLEDGE MANAGEMENT",
+      "tag_en": "KNOWLEDGE MANAGEMENT",
+      "title_fa": "۵ اشتباه رایج در مدیریت دانش پروژه‌های ساختمانی",
+      "title_en": "5 Common Knowledge-Management Mistakes on Construction Projects",
+      "excerpt_fa": "پنج اشتباه رایجی که شرکت‌های پیمانکاری در مدیریت دانش مرتکب می‌شوند، و راه‌حل عملی هرکدام.",
+      "excerpt_en": "Five common knowledge-management mistakes contracting firms make, and a practical fix for each.",
+      "link_fa": "blog/km-mistakes.html",
+      "link_en": "en/blog/km-mistakes.html"
+    },
+    {
       "id": "lean-construction-chist",
       "status": "published",
       "date": "2026-07-20",
@@ -14,20 +28,6 @@
       "excerpt_en": "An introduction to Lean Construction principles and their practical use in reducing resource waste on construction sites.",
       "link_fa": "blog/lean-construction-chist.html",
       "link_en": "en/blog/lean-construction.html"
-    },
-    {
-      "id": "km-mistakes",
-      "status": "soon",
-      "date": "2026-08-01",
-      "icon": "km",
-      "tag_fa": "به‌زودی",
-      "tag_en": "COMING SOON",
-      "title_fa": "۵ اشتباه رایج در مدیریت دانش پروژه‌های ساختمانی",
-      "title_en": "5 Common Knowledge-Management Mistakes on Construction Projects",
-      "excerpt_fa": "این مقاله در حال آماده‌سازی است.",
-      "excerpt_en": "This article is being prepared.",
-      "link_fa": "",
-      "link_en": ""
     },
     {
       "id": "primavera-p6",
