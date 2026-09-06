@@ -3,13 +3,34 @@
    Design tokens: Minimal Editorial / Navy & Gold
    =========================================================== */
 
-/* Self-hosted Vazirmatn (variable font) — no external CDN dependency,
-   so it always loads instantly and looks the same everywhere. */
+/* Self-hosted Vazirmatn — static weight files (not a variable font).
+   Static weights are the most universally-supported webfont format;
+   this avoids any browser/host quirks with variable-font declarations. */
 @font-face{
   font-family:'Vazirmatn';
-  src:url('../fonts/Vazirmatn-Variable.woff2') format('woff2-variations'),
-      url('../fonts/Vazirmatn-Variable.woff2') format('woff2');
-  font-weight:100 900;
+  src:url('../fonts/Vazirmatn-Regular.woff2') format('woff2');
+  font-weight:400;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:'Vazirmatn';
+  src:url('../fonts/Vazirmatn-Medium.woff2') format('woff2');
+  font-weight:500;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:'Vazirmatn';
+  src:url('../fonts/Vazirmatn-Bold.woff2') format('woff2');
+  font-weight:700;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:'Vazirmatn';
+  src:url('../fonts/Vazirmatn-ExtraBold.woff2') format('woff2');
+  font-weight:800;
   font-style:normal;
   font-display:swap;
 }
@@ -31,7 +52,7 @@
   --ok-green:    #4E8B6B;
 
   /* --- type --- */
-  --font-fa: 'Vazirmatn', Tahoma, 'Segoe UI', 'B Mitra', sans-serif;
+  --font-fa: 'Vazirmatn', Tahoma, 'Segoe UI', Arial, sans-serif;
   --font-serif: Georgia, 'Times New Roman', Tahoma, serif;
 
   --radius: 4px;
