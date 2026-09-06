@@ -2,6 +2,20 @@
   "_readme": "این فایل، لیست مقالات وبلاگ رو مدیریت می‌کنه (هم در صفحه اصلی و هم در صفحه‌ی وبلاگ). برای افزودن مقاله‌ی جدید: ۱) یک فایل html جدید برای متن کامل مقاله در پوشه‌ی blog/ (و نسخه انگلیسی در en/blog/) بساز — می‌توانی از blog/lean-construction-chist.html به‌عنوان قالب استفاده کنی. ۲) یک آبجکت جدید به آرایه‌ی posts زیر اضافه کن و status را 'published' بگذار. جدیدترین مقاله را همیشه در ابتدای آرایه قرار بده (ترتیب نمایش = ترتیب آرایه). برای آیکون از یکی از این مقادیر استفاده کن: lean, pm, km, risk, training, expert — یا آن را خالی بگذار تا آیکون پیش‌فرض استفاده شود.",
   "posts": [
     {
+      "id": "takt-planning",
+      "status": "published",
+      "date": "2026-09-06",
+      "icon": "lean",
+      "tag_fa": "LEAN CONSTRUCTION",
+      "tag_en": "LEAN CONSTRUCTION",
+      "title_fa": "تکت پلنینگ (Takt Planning) چیست و چرا باید در پروژه‌های ساختمانی ایران به آن توجه کرد؟",
+      "title_en": "What Is Takt Planning — and Why Should Construction Projects in Iran Pay Attention to It?",
+      "excerpt_fa": "معرفی تکت پلنینگ، ابزاری ساده و مؤثر از ساخت‌وساز ناب برای ایجاد جریان کار قابل‌پیش‌بینی در کارگاه.",
+      "excerpt_en": "An introduction to Takt Planning, a simple and effective Lean Construction tool for predictable site workflow.",
+      "link_fa": "blog/takt-planning.html",
+      "link_en": "en/blog/takt-planning.html"
+    },
+    {
       "id": "km-mistakes",
       "status": "published",
       "date": "2026-08-27",
