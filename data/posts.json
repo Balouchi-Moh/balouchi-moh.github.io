@@ -2,6 +2,20 @@
   "_readme": "این فایل، لیست مقالات وبلاگ رو مدیریت می‌کنه (هم در صفحه اصلی و هم در صفحه‌ی وبلاگ). برای افزودن مقاله‌ی جدید: ۱) یک فایل html جدید برای متن کامل مقاله در پوشه‌ی blog/ (و نسخه انگلیسی در en/blog/) بساز — می‌توانی از blog/lean-construction-chist.html به‌عنوان قالب استفاده کنی. ۲) یک آبجکت جدید به آرایه‌ی posts زیر اضافه کن و status را 'published' بگذار. جدیدترین مقاله را همیشه در ابتدای آرایه قرار بده (ترتیب نمایش = ترتیب آرایه). برای آیکون از یکی از این مقادیر استفاده کن: lean, pm, km, risk, training, expert — یا آن را خالی بگذار تا آیکون پیش‌فرض استفاده شود.",
   "posts": [
     {
+      "id": "melkshenaas",
+      "status": "published",
+      "date": "2026-10-26",
+      "icon": "expert",
+      "tag_fa": "معرفی",
+      "tag_en": "INTRODUCTION",
+      "title_fa": "معرفی «ملک‌شناس»: ارزیابی فنی و حقوقی آپارتمان، قبل از تصمیم به خرید",
+      "title_en": "Introducing Melkshenas: Technical & Legal Apartment Assessment Before You Buy",
+      "excerpt_fa": "معرفی ملک‌شناس (melkshenaas.ir)؛ سرویس ارزیابی فنی، مهندسی و حقوقی آپارتمان‌های مسکونی تهران با مدل امتیازدهی ۱۲۰ شاخصی MPR و گزارش مهرشده‌ی کارشناس رسمی دادگستری.",
+      "excerpt_en": "Introducing melkshenaas.ir — a technical, engineering and legal assessment service for Tehran apartments, built on a 120-indicator MPR rating model.",
+      "link_fa": "blog/melkshenaas.html",
+      "link_en": "en/blog/melkshenaas.html"
+    },
+    {
       "id": "takt-planning",
       "status": "published",
       "date": "2026-09-06",
