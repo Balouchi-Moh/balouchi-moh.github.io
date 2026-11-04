@@ -1,21 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://lean-construction.ir/index.html</loc><priority>1.0</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- صفحه اصلی فارسی (ریشه) + انگلیسی + عربی -->
+  <url>
+    <loc>https://lean-construction.ir/</loc>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://lean-construction.ir/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lean-construction.ir/en/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://lean-construction.ir/ar/"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://lean-construction.ir/en/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://lean-construction.ir/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lean-construction.ir/en/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://lean-construction.ir/ar/"/>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://lean-construction.ir/ar/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://lean-construction.ir/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lean-construction.ir/en/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://lean-construction.ir/ar/"/>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- صفحات اصلی فارسی -->
   <url><loc>https://lean-construction.ir/services.html</loc><priority>0.9</priority></url>
-  <url><loc>https://lean-construction.ir/resume.html</loc><priority>0.8</priority></url>
-  <url><loc>https://lean-construction.ir/blog/index.html</loc><priority>0.8</priority></url>
-  <url><loc>https://lean-construction.ir/blog/lean-construction-chist.html</loc><priority>0.7</priority></url>
-  <url><loc>https://lean-construction.ir/blog/km-mistakes.html</loc><priority>0.7</priority></url>
-  <url><loc>https://lean-construction.ir/contact.html</loc><priority>0.6</priority></url>
-  <url><loc>https://lean-construction.ir/en/index.html</loc><priority>0.9</priority></url>
+  <url><loc>https://lean-construction.ir/resume.html</loc><priority>0.9</priority></url>
+  <url><loc>https://lean-construction.ir/contact.html</loc><priority>0.8</priority></url>
+
+  <!-- صفحات اصلی انگلیسی -->
   <url><loc>https://lean-construction.ir/en/services.html</loc><priority>0.8</priority></url>
-  <url><loc>https://lean-construction.ir/en/resume.html</loc><priority>0.7</priority></url>
-  <url><loc>https://lean-construction.ir/en/blog/index.html</loc><priority>0.7</priority></url>
-  <url><loc>https://lean-construction.ir/en/blog/lean-construction.html</loc><priority>0.6</priority></url>
-  <url><loc>https://lean-construction.ir/en/blog/km-mistakes.html</loc><priority>0.6</priority></url>
-  <url><loc>https://lean-construction.ir/en/contact.html</loc><priority>0.5</priority></url>
-  <url><loc>https://lean-construction.ir/blog/melkshenaas.html</loc><priority>0.7</priority></url>
-  <url><loc>https://lean-construction.ir/en/blog/melkshenaas.html</loc><priority>0.6</priority></url>
+  <url><loc>https://lean-construction.ir/en/resume.html</loc><priority>0.8</priority></url>
+  <url><loc>https://lean-construction.ir/en/contact.html</loc><priority>0.7</priority></url>
+
+  <!-- صفحات اصلی عربی -->
+  <url><loc>https://lean-construction.ir/ar/services.html</loc><priority>0.6</priority></url>
+  <url><loc>https://lean-construction.ir/ar/resume.html</loc><priority>0.6</priority></url>
+  <url><loc>https://lean-construction.ir/ar/contact.html</loc><priority>0.5</priority></url>
+
+  <!-- وبلاگ فارسی -->
+  <url><loc>https://lean-construction.ir/blog/index.html</loc><priority>0.8</priority></url>
+  <url><loc>https://lean-construction.ir/blog/melkshenaas.html</loc><priority>0.6</priority></url>
   <url><loc>https://lean-construction.ir/blog/takt-planning.html</loc><priority>0.6</priority></url>
+  <url><loc>https://lean-construction.ir/blog/km-mistakes.html</loc><priority>0.6</priority></url>
+  <url><loc>https://lean-construction.ir/blog/lean-construction-chist.html</loc><priority>0.6</priority></url>
+
+  <!-- وبلاگ انگلیسی -->
+  <url><loc>https://lean-construction.ir/en/blog/index.html</loc><priority>0.7</priority></url>
+  <url><loc>https://lean-construction.ir/en/blog/melkshenaas.html</loc><priority>0.5</priority></url>
   <url><loc>https://lean-construction.ir/en/blog/takt-planning.html</loc><priority>0.5</priority></url>
+  <url><loc>https://lean-construction.ir/en/blog/km-mistakes.html</loc><priority>0.5</priority></url>
+  <url><loc>https://lean-construction.ir/en/blog/lean-construction.html</loc><priority>0.5</priority></url>
+
 </urlset>

@@ -714,10 +714,66 @@ html[dir="ltr"] .article h1 { line-height: 1.25; }
   .footer-bottom { flex-direction: column; }
 }
 
+/* ---------- انیمیشن‌های تکمیلی نسخه‌ی ۲۰۲۶-ب ---------- */
+
+/* ورود پلکانی عناصر هیرو در بارگذاری اول صفحه (فقط وقتی JS فعال است) */
+html.js .hero-inner > div > * { animation: hero-in .95s var(--ease-out) backwards; }
+html.js .hero-inner > div > .eyebrow    { animation-delay: .05s; }
+html.js .hero-inner > div > .hero-title { animation-delay: .16s; }
+html.js .hero-inner > div > .hero-desc  { animation-delay: .32s; }
+html.js .hero-inner > div > .hero-tags  { animation-delay: .48s; }
+html.js .hero-inner > div > .hero-cta   { animation-delay: .62s; }
+html.js .hero-figure { animation: hero-figure-in 1.1s var(--ease-out) .25s backwards; }
+@keyframes hero-in { from { opacity: 0; transform: translateY(26px); filter: blur(6px); } to { opacity: 1; transform: none; filter: none; } }
+@keyframes hero-figure-in { from { opacity: 0; transform: scale(.93) translateY(18px); } to { opacity: 1; transform: none; } }
+
+/* نفس کشیدن ملایم نور پس‌زمینه‌ی هیرو */
+.hero::before { animation: glow-pulse 9s ease-in-out infinite alternate; }
+@keyframes glow-pulse { from { opacity: .75; } to { opacity: 1; } }
+
+/* شناور شدن ملایم آیکون کارت‌های مقاله */
+.post-card .post-thumb svg { animation: thumb-float 6.5s ease-in-out infinite; }
+@keyframes thumb-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+
+/* پرش نرم به لنگرها — هدر چسبان روی محتوا را نپوشاند */
+[id] { scroll-margin-top: calc(var(--header-h) + 26px); }
+
+/* دکمه‌ی بازگشت به بالا (توسط JS ساخته می‌شود) */
+.to-top {
+  position: fixed; bottom: 24px; inset-inline-end: 24px; z-index: 210;
+  width: 46px; height: 46px; border-radius: 14px;
+  display: grid; place-items: center;
+  background: rgba(18, 18, 23, 0.88);
+  -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+  border: 1px solid rgba(242, 179, 61, 0.42);
+  color: var(--amber-soft); cursor: pointer;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.5);
+  opacity: 0; visibility: hidden; transform: translateY(16px);
+  transition: opacity .35s, transform .35s var(--ease-out), visibility .35s, background .3s, color .3s;
+}
+.to-top.show { opacity: 1; visibility: visible; transform: none; }
+.to-top:hover { background: var(--amber); color: #201503; transform: translateY(-4px); }
+.to-top svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+
+/* وضعیت ارسال فرم مشاوره */
+.form-status {
+  display: none; margin-top: 16px; padding: 14px 17px;
+  border-radius: 12px; font-size: 14px; line-height: 1.8;
+  border: 1px solid rgba(62, 207, 154, 0.4); background: rgba(62, 207, 154, 0.08); color: var(--ok-green);
+}
+.form-status.error { border-color: rgba(240, 110, 110, 0.45); background: rgba(240, 110, 110, 0.08); color: #f08e8e; }
+.form-status.show { display: block; animation: card-in .5s var(--ease-out); }
+.btn[disabled] { opacity: .55; pointer-events: none; }
+
+/* برچسب‌های فارسی/عربی داخل هیرو — بدون فاصله‌ی حروف تا خطوط متصل نشکنند */
+html[dir="rtl"] .tag { font-family: var(--font-fa); letter-spacing: 0; }
+html[dir="rtl"] .eyebrow { letter-spacing: .18em; }
+
 /* ---------- کاهش حرکت ---------- */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
   html { scroll-behavior: auto; }
   .reveal { opacity: 1; transform: none; filter: none; }
   .gantt-bar { transform: translateY(-50%) scaleX(1) !important; }
+  html.js .hero-inner > div > *, html.js .hero-figure { animation: none !important; opacity: 1 !important; transform: none !important; filter: none !important; }
 }

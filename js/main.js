@@ -8,6 +8,7 @@
   'use strict';
 
   document.documentElement.classList.remove('no-js');
+  document.documentElement.classList.add('js');
 
   /* ---------- کمکی‌ها ---------- */
   function isFa() { return (document.documentElement.getAttribute('lang') || 'fa') === 'fa'; }
@@ -21,12 +22,22 @@
 
   document.addEventListener('DOMContentLoaded', function () {
 
-    /* ---------- نوار پیشرفت اسکرول + حالت هدر ---------- */
+    /* ---------- نوار پیشرفت اسکرول + حالت هدر + دکمه بازگشت به بالا ---------- */
     var header = document.querySelector('.site-header');
     var progress = document.createElement('div');
     progress.className = 'scroll-progress';
     progress.setAttribute('aria-hidden', 'true');
     document.body.appendChild(progress);
+
+    var toTop = document.createElement('button');
+    toTop.className = 'to-top';
+    toTop.type = 'button';
+    toTop.setAttribute('aria-label', isFa() ? 'بازگشت به بالای صفحه' : 'Back to top');
+    toTop.innerHTML = '<svg viewBox="0 0 24 24"><path d="M12 19V5"/><path d="M5 12l7-7 7 7"/></svg>';
+    document.body.appendChild(toTop);
+    toTop.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
 
     var ticking = false;
     function onScroll() {
@@ -37,6 +48,7 @@
         var max = document.documentElement.scrollHeight - window.innerHeight;
         progress.style.transform = 'scaleX(' + (max > 0 ? Math.min(y / max, 1) : 0) + ')';
         if (header) header.classList.toggle('scrolled', y > 10);
+        toTop.classList.toggle('show', y > 650);
         ticking = false;
       });
     }
@@ -116,6 +128,41 @@
         var r = card.getBoundingClientRect();
         card.style.setProperty('--mx', (e.clientX - r.left) + 'px');
         card.style.setProperty('--my', (e.clientY - r.top) + 'px');
+      });
+    });
+
+    /* ---------- فرم درخواست مشاوره: ارسال ایجکسی + پیام وضعیت ---------- */
+    document.querySelectorAll('form[action*="formspree.io"]').forEach(function (form) {
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var btn = form.querySelector('button[type="submit"]');
+        var status = form.parentNode.querySelector('.form-status');
+        if (!status) {
+          status = document.createElement('div');
+          status.className = 'form-status';
+          form.parentNode.appendChild(status);
+        }
+        status.className = 'form-status';
+        var sending = isFa() ? 'در حال ارسال…' : 'Sending…';
+        var okMsg = isFa()
+          ? 'درخواست شما با موفقیت ثبت شد. در اولین فرصت با شما تماس می‌گیرم. ✔'
+          : 'Your request has been sent successfully. I will get back to you shortly. ✔';
+        var errMsg = isFa()
+          ? 'ارسال ناموفق بود؛ لطفاً دوباره تلاش کنید یا مستقیم ایمیل بزنید.'
+          : 'Sending failed — please try again or reach out by email.';
+        if (btn) { btn.disabled = true; btn.dataset.label = btn.textContent; btn.textContent = sending; }
+        fetch(form.action, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { 'Accept': 'application/json' }
+        }).then(function (res) {
+          if (res.ok) { status.textContent = okMsg; status.classList.add('show'); form.reset(); }
+          else { status.textContent = errMsg; status.classList.add('show', 'error'); }
+        }).catch(function () {
+          status.textContent = errMsg; status.classList.add('show', 'error');
+        }).finally(function () {
+          if (btn) { btn.disabled = false; btn.textContent = btn.dataset.label || btn.textContent; }
+        });
       });
     });
 
