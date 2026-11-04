@@ -1,238 +1,112 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl" class="no-js">
+<html lang="en" dir="ltr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>محمد بلوچی | خدمات مدیریت ساخت و ساخت‌وساز ناب</title>
-<meta name="description" content="مشاوره و خدمات مدیریت ساخت، پیاده‌سازی ساخت‌وساز ناب (Lean Construction)، برنامه‌ریزی و کنترل پروژه و مدیریت دانش برای کارفرمایان و پیمانکاران — با بیش از ۲۰ سال تجربه‌ی اجرایی در پروژه‌های بزرگ مانند ایران‌مال.">
-<meta name="keywords" content="مدیریت ساخت, ساخت‌وساز ناب, lean construction, مشاور مدیریت ساخت, کنترل پروژه, Last Planner, تکت پلنینگ, محمد بلوچی">
-<meta name="theme-color" content="#0a0a0c">
-<link rel="alternate" hreflang="fa" href="https://lean-construction.ir/" />
-<link rel="alternate" hreflang="en" href="https://lean-construction.ir/en/" />
-<link rel="alternate" hreflang="ar" href="https://lean-construction.ir/ar/" />
-<link rel="canonical" href="https://lean-construction.ir/">
-<meta property="og:type" content="website">
-<meta property="og:title" content="محمد بلوچی | خدمات مدیریت ساخت و ساخت‌وساز ناب">
-<meta property="og:description" content="مشاوره مدیریت ساخت، پیاده‌سازی ساخت‌وساز ناب، کنترل پروژه و مدیریت دانش — با بیش از ۲۰ سال تجربه اجرایی.">
-<meta property="og:image" content="https://lean-construction.ir/images/profile.jpg">
-<meta property="og:url" content="https://lean-construction.ir/">
-<meta property="og:locale" content="fa_IR">
-<link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
-<link rel="stylesheet" href="/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Mohammad Balouchi | Construction Management & Lean Construction Services</title>
+    <meta name="description" content="Consulting services in Construction Management and Lean Construction: Last Planner System implementation, Takt planning, project controls, and advisory for contractors and developers across the GCC.">
+    
+    <link rel="alternate" hreflang="en" href="https://lean-construction.ir/" />
+    <link rel="alternate" hreflang="ar" href="https://lean-construction.ir/ar/" />
+    <link rel="alternate" hreflang="fa" href="https://lean-construction.ir/fa/" />
+    <link rel="canonical" href="https://lean-construction.ir/" />
+
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap');
+        :root { --primary: #2563eb; --dark-bg: #0f172a; --text-dark: #1e293b; --text-muted: #64748b; }
+        body { margin: 0; font-family: 'Space Grotesk', -apple-system, sans-serif; background-color: #fff; color: var(--text-dark); line-height: 1.6; }
+        header { background: #ffffff; border-bottom: 1px solid #e2e8f0; padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-weight: 700; font-size: 20px; color: var(--dark-bg); text-decoration: none; }
+        .logo span { color: var(--primary); }
+        nav { display: flex; gap: 20px; align-items: center; }
+        nav a { text-decoration: none; color: #475569; font-weight: 500; }
+        nav a.active { color: var(--primary); font-weight: 700; }
+        .lang-switch { border-left: 1px solid #cbd5e1; padding-left: 15px; margin-left: 10px; font-size: 14px; }
+        .hero { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: #fff; padding: 90px 5%; text-align: center; }
+        .hero h1 { font-size: 40px; margin-bottom: 15px; line-height: 1.2; max-width: 900px; margin-left: auto; margin-right: auto; }
+        .hero p { font-size: 18px; color: #94a3b8; max-width: 750px; margin: 0 auto 30px auto; }
+        .btn-primary { background: var(--primary); color: #fff; padding: 14px 28px; border-radius: 6px; text-decoration: none; font-weight: 600; display: inline-block; }
+        .btn-outline { background: transparent; color: #fff; padding: 14px 28px; border-radius: 6px; text-decoration: none; border: 1px solid #475569; font-weight: 600; display: inline-block; }
+        .services { padding: 80px 5%; background: #f8fafc; }
+        .services h2 { text-align: center; font-size: 32px; color: var(--dark-bg); margin-bottom: 50px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
+        .card { background: #fff; border: 1px solid #e2e8f0; padding: 30px; border-radius: 8px; }
+        .card h3 { color: var(--dark-bg); font-size: 20px; margin-top: 0; }
+        .card p { color: var(--text-muted); font-size: 15px; }
+        
+        /* اصلاح کامل تصویر پروفایل بدون نوار مشکی یا خطای گرافیکی */
+        .about-brief { padding: 70px 5%; display: flex; align-items: center; gap: 40px; flex-wrap: wrap; }
+        .profile-img-container { width: 220px; height: 220px; flex-shrink: 0; border-radius: 50%; overflow: hidden; border: 4px solid #2563eb; background: #e2e8f0; display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
+        .profile-img-container img { width: 100%; height: 100%; object-fit: cover; display: block; border: none; outline: none; }
+        
+        footer { background: var(--dark-bg); color: #94a3b8; padding: 40px 5%; text-align: center; font-size: 14px; }
+    </style>
 </head>
 <body>
 
-<header class="site-header">
-  <nav class="nav">
-    <a href="/" class="brand">
-      <span class="brand-mark">MB</span>
-      <span class="brand-text"><b>محمد بلوچی</b><span>CONSTRUCTION MGMT.</span></span>
-    </a>
-    <button class="nav-toggle" aria-label="باز کردن منو">☰</button>
-    <ul class="nav-links">
-      <li><a href="/" class="active">درباره مشاور</a></li>
-      <li><a href="/services.html">خدمات</a></li>
-      <li><a href="/resume.html">رزومه مشاور</a></li>
-      <li><a href="/blog/index.html">مقالات</a></li>
-      <li><a href="/en/index.html" class="lang-switch">EN</a></li>
-      <li><a href="/ar/index.html" class="lang-switch">AR</a></li>
-      <li><a href="/contact.html" class="nav-cta">تماس با من</a></li>
-    </ul>
-  </nav>
-</header>
+    <header>
+        <a href="/" class="logo">Dr. Mohammad <span>Balouchi</span></a>
+        <nav>
+            <a href="/" class="active">Home</a>
+            <a href="/services.html">Services</a>
+            <a href="/blog/index.html">Insights</a>
+            <a href="/resume.html">Consultant Resume</a>
+            <a href="/contact.html">Contact</a>
+            <div class="lang-switch">
+                <strong style="color: var(--primary);">EN</strong> | 
+                <a href="/ar/index.html">AR</a> | 
+                <a href="/fa/index.html">FA</a>
+            </div>
+        </nav>
+    </header>
 
-<section class="hero crop">
-  <div class="wrap hero-inner">
-    <div>
-      <div class="eyebrow">CONSTRUCTION MANAGEMENT SERVICES</div>
-      <h1 class="hero-title">مدیریت ساخت و <em>ساخت‌وساز ناب</em>؛ تحویل پروژه بدون اتلاف زمان، هزینه و منابع</h1>
-      <p class="hero-desc">
-        من محمد بلوچی هستم؛ مشاور مستقل مدیریت ساخت با بیش از ۲۰ سال تجربه‌ی اجرایی در پروژه‌های بزرگ مانند ایران‌مال.
-        در این سایت، خدمات مدیریت ساخت و ساخت‌وساز ناب به پیمانکاران، کارفرمایان و شرکت‌های مهندسی ارائه می‌شود:
-        از پیاده‌سازی Last Planner و برنامه‌ریزی تاکت تا کنترل پروژه، تحلیل تأخیرات و مدیریت دانش سازمانی.
-      </p>
-      <div class="hero-tags">
-        <span class="tag">ساخت‌وساز ناب</span>
-        <span class="tag">Last Planner System</span>
-        <span class="tag">Takt Planning</span>
-        <span class="tag">Primavera P6</span>
-        <span class="tag">مدیریت دانش</span>
-        <span class="tag">کنترل پروژه</span>
-      </div>
-      <div class="hero-cta">
-        <a href="/contact.html" class="btn btn-amber">درخواست مشاوره</a>
-        <a href="/services.html" class="btn btn-ghost">مشاهده خدمات</a>
-      </div>
-    </div>
-    <div class="hero-figure">
-      <div class="stamp-ring"></div>
-      <img class="portrait" src="/images/profile.jpg" alt="محمد بلوچی، مشاور مدیریت ساخت و ساخت‌وساز ناب">
-      <div class="badge-phd">دکترای مدیریت ساخت</div>
-    </div>
-  </div>
-</section>
+    <section class="hero">
+        <h1>Construction Management & Lean Construction Services</h1>
+        <p>Empowering contractors and developers across the GCC with advanced Lean Construction methodologies, Last Planner System, and world-class project controls.</p>
+        <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+            <a href="/contact.html" class="btn-primary">Request Consultation</a>
+            <a href="/services.html" class="btn-outline">Our Services</a>
+        </div>
+    </section>
 
-<div class="marquee" aria-hidden="true">
-  <div class="marquee-track">
-    <span>LEAN CONSTRUCTION</span><i>✦</i><span>PRIMAVERA P6</span><i>✦</i><span>KNOWLEDGE MANAGEMENT</span><i>✦</i><span>PMBOK</span><i>✦</i><span>RISK MANAGEMENT</span><i>✦</i><span>PRINCE2</span><i>✦</i><span>IRAN MALL</span><i>✦</i><span>LAST PLANNER SYSTEM</span><i>✦</i>
-    <span>LEAN CONSTRUCTION</span><i>✦</i><span>PRIMAVERA P6</span><i>✦</i><span>KNOWLEDGE MANAGEMENT</span><i>✦</i><span>PMBOK</span><i>✦</i><span>RISK MANAGEMENT</span><i>✦</i><span>PRINCE2</span><i>✦</i><span>IRAN MALL</span><i>✦</i><span>LAST PLANNER SYSTEM</span><i>✦</i>
-  </div>
-</div>
+    <section class="services">
+        <h2>Core Expertise & Advisory Solutions</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Last Planner® System (LPS)</h3>
+                <p>Scientific site implementation of collaborative planning, reliable commitments tracking (PPC), and variance analysis.</p>
+            </div>
+            <div class="card">
+                <h3>Takt Time Planning</h3>
+                <p>Advanced workflow synchronization for high-rise residential, commercial, and infrastructure megaprojects.</p>
+            </div>
+            <div class="card">
+                <h3>Project Controls & Claims</h3>
+                <p>Comprehensive baseline scheduling, delay forensics, and risk management strategies based on applied research.</p>
+            </div>
+            <div class="card">
+                <h3>Real Estate & Technical Valuation</h3>
+                <p>Expert technical appraisal, feasibility analysis, and asset valuation for regional institutional investors.</p>
+            </div>
+        </div>
+    </section>
 
-<section class="reveal">
-  <div class="wrap">
-    <div class="stats">
-      <div class="stat"><b data-count="20" data-prefix="+">20+</b><span>سال تجربه‌ی اجرایی در پروژه‌های عمرانی</span></div>
-      <div class="stat"><b data-count="15" data-prefix="+">15+</b><span>پروژه‌ی تحقیق و توسعه‌ی مدیریت‌شده</span></div>
-      <div class="stat"><b data-count="30" data-prefix="+">30+</b><span>قرارداد مهندسی مدیریت‌شده</span></div>
-      <div class="stat"><b data-count="1">1</b><span>ایران‌مال؛ بزرگ‌ترین مرکز خرید جهان</span></div>
-    </div>
-  </div>
-</section>
+    <section class="about-brief">
+        <div class="profile-img-container">
+            <img src="/images/profile.jpg" alt="Dr. Mohammad Balouchi">
+        </div>
+        <div style="flex: 1; min-width: 280px;">
+            <h2 style="margin-top: 0; color: #0f172a;">Dr. Mohammad Balouchi</h2>
+            <p style="color: #2563eb; font-weight: 600; margin-bottom: 15px;">Construction Management & Lean Construction Consultant</p>
+            <p style="color: #475569; line-height: 1.7;">As an independent consultant, I provide construction management and lean construction services that bridge academic rigor with real-world site execution. My mission is to help construction organizations in the Middle East eliminate workflow waste, optimize production schedules, and maximize investment value.</p>
+            <a href="/resume.html" style="color: #2563eb; font-weight: 600; text-decoration: none;">View Consultant Resume &rarr;</a>
+        </div>
+    </section>
 
-<section class="alt reveal">
-  <div class="wrap">
-    <div class="section-head">
-      <div class="eyebrow">SERVICES</div>
-      <h2 class="section-title">چه خدماتی به پروژه‌ی شما ارائه می‌شود؟</h2>
-      <p class="section-sub">از پیاده‌سازی ساخت‌وساز ناب تا مدیریت دانش سازمانی — تمرکز من بر کاهش اتلاف، افزایش بهره‌وری و تحویل به‌موقع پروژه است.</p>
-    </div>
-    <div class="grid-3">
-      <div class="card">
-        <div class="num">۰۱</div>
-        <h3>ساخت‌وساز ناب (Lean Construction)</h3>
-        <p>پیاده‌سازی ابزارهای ناب در جبهه‌ی کار: سیستم آخرین برنامه‌ریز (LPS)، برنامه‌ریزی تاکت و حذف اتلاف‌های زمان، هزینه و منابع برای افزایش ارزش تحویلی به کارفرما.</p>
-        <a class="more" href="/services.html#lean">اطلاعات بیشتر</a>
-      </div>
-      <div class="card">
-        <div class="num">۰۲</div>
-        <h3>مدیریت ساخت و کنترل پروژه</h3>
-        <p>برنامه‌ریزی و زمان‌بندی با Primavera P6 و MS Project، کنترل پیشرفت و هزینه، تحلیل تأخیرات و مدیریت ادعاها — بر پایه‌ی استانداردهای PMBOK و PRINCE2.</p>
-        <a class="more" href="/services.html#pm">اطلاعات بیشتر</a>
-      </div>
-      <div class="card">
-        <div class="num">۰۳</div>
-        <h3>مدیریت دانش سازمانی</h3>
-        <p>طراحی و استقرار چرخه‌ی کامل مدیریت دانش در شرکت‌های پیمانکاری و مهندسی — برای جلوگیری از تکرار خطاها و تسریع یادگیری تیم‌ها.</p>
-        <a class="more" href="/services.html#km">اطلاعات بیشتر</a>
-      </div>
-    </div>
-    <div style="margin-top:30px;text-align:center;">
-      <a href="/services.html" class="btn btn-dark">مشاهده‌ی همه‌ی خدمات</a>
-    </div>
-  </div>
-</section>
+    <footer>
+        <p>&copy; 2026 Dr. Mohammad Balouchi - Lean Construction Advisory. All rights reserved.</p>
+    </footer>
 
-<section class="reveal">
-  <div class="wrap">
-    <div class="section-head">
-      <div class="eyebrow">TRACK RECORD</div>
-      <h2 class="section-title">مسیر حرفه‌ای در یک نگاه</h2>
-      <p class="section-sub">ترکیبی از اجرای صنعتی، تدریس دانشگاهی و مشاوره‌ی تخصصی — به شکل یک برنامه‌ی زمان‌بندی پروژه.</p>
-    </div>
-    <div class="gantt">
-      <div class="gantt-scale">
-        <span>نقش</span>
-        <span>08</span><span>09</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span>23</span>
-      </div>
-      <div class="gantt-row">
-        <div class="gantt-label"><b>مسئول تحقیق و توسعه و مدیریت دانش</b><span>کیسون · ۲۰۱۰–۲۰۲۵</span></div>
-        <div class="gantt-track"><div class="gantt-bar bar-industry" style="left:12.5%;width:87.5%;">Kayson</div></div>
-      </div>
-      <div class="gantt-row">
-        <div class="gantt-label"><b>استادیار گروه مهندسی عمران</b><span>دانشگاه سمنان · ۲۰۲۳–اکنون</span></div>
-        <div class="gantt-track"><div class="gantt-bar bar-academic" style="left:93.75%;width:6.25%;">Semnan</div></div>
-      </div>
-      <div class="gantt-row">
-        <div class="gantt-label"><b>مشاور مدیریت پروژه</b><span>نیک‌رای · ۲۰۲۰–۲۰۲۱</span></div>
-        <div class="gantt-track"><div class="gantt-bar bar-consult" style="left:75%;width:9.4%;">Nikray</div></div>
-      </div>
-      <div class="gantt-row">
-        <div class="gantt-label"><b>مدرس مدعو</b><span>دانشگاه آزاد تهران غرب · ۲۰۲۲–۲۰۲۳</span></div>
-        <div class="gantt-track"><div class="gantt-bar bar-academic" style="left:87.5%;width:9.4%;">IAU</div></div>
-      </div>
-      <div class="gantt-legend">
-        <span><i style="background:var(--navy-mid)"></i>صنعت</span>
-        <span><i style="background:var(--ok-green)"></i>دانشگاهی</span>
-        <span><i style="background:var(--amber-deep)"></i>مشاوره</span>
-      </div>
-    </div>
-    <div style="margin-top:26px;text-align:center;">
-      <a href="/resume.html" class="btn btn-dark">مشاهده‌ی رزومه‌ی کامل مشاور</a>
-    </div>
-  </div>
-</section>
-
-<section class="alt reveal">
-  <div class="wrap">
-    <div class="section-head">
-      <div class="eyebrow">NOTABLE PROJECTS</div>
-      <h2 class="section-title">نمونه پروژه‌های شاخص</h2>
-      <p class="section-sub">نگاهی به تعدادی از پروژه‌های بزرگ که در آن‌ها نقش اجرایی یا مشاوره‌ای داشته‌ام.</p>
-    </div>
-    <div class="grid-3" id="projects-grid">
-      <!-- محتوا به‌صورت خودکار از data/projects.json توسط js/main.js ساخته می‌شود -->
-    </div>
-  </div>
-</section>
-
-<section class="philosophy">
-  <div class="wrap">
-    <div class="eyebrow" style="margin-bottom:22px;">APPROACH</div>
-    <blockquote>
-      پروژه‌ی موفق فقط پروژه‌ای نیست که به‌موقع تمام شود؛ پروژه‌ای است که در آن <span>هیچ منبعی هدر نمی‌رود</span>: نه زمان، نه بودجه و نه دانشی که تیم در این مسیر ساخته است.
-    </blockquote>
-    <cite>محمد بلوچی</cite>
-  </div>
-</section>
-
-<section class="reveal">
-  <div class="wrap">
-    <div class="section-head">
-      <div class="eyebrow">RECENT WRITING</div>
-      <h2 class="section-title">آخرین یادداشت‌ها</h2>
-    </div>
-    <div class="grid-3" id="posts-grid" data-limit="3">
-      <!-- محتوا به‌صورت خودکار از data/posts.json توسط js/main.js ساخته می‌شود -->
-    </div>
-    <div style="margin-top:30px;text-align:center;">
-      <a href="/blog/index.html" class="btn btn-dark">همه‌ی مقالات</a>
-    </div>
-  </div>
-</section>
-
-<section class="alt reveal">
-  <div class="wrap" style="text-align:center;">
-    <div class="eyebrow" style="justify-content:center;">GET IN TOUCH</div>
-    <h2 class="section-title" style="margin-top:14px;">پروژه‌ای در ذهن دارید؟</h2>
-    <p class="section-sub" style="margin:14px auto 30px;">همین امروز تماس بگیرید؛ جلسه‌ی اول مشاوره‌ی اولیه، رایگان است.</p>
-    <a href="/contact.html" class="btn btn-amber">شروع گفت‌وگو</a>
-  </div>
-</section>
-
-<footer class="site-footer">
-  <div class="wrap">
-    <div class="footer-top">
-      <div class="brand" style="color:var(--ink-on-navy);">
-        <span class="brand-mark">MB</span>
-        <span class="brand-text"><b>محمد بلوچی</b><span>مشاور مدیریت ساخت و ساخت‌وساز ناب</span></span>
-      </div>
-      <ul class="footer-links">
-        <li><a href="/">درباره مشاور</a></li>
-        <li><a href="/services.html">خدمات</a></li>
-        <li><a href="/resume.html">رزومه مشاور</a></li>
-        <li><a href="/blog/index.html">مقالات</a></li>
-        <li><a href="/contact.html">تماس</a></li>
-      </ul>
-    </div>
-    <div class="footer-bottom">
-      <span>© ۲۰۲۶ محمد بلوچی — تمامی حقوق محفوظ است</span>
-      <span>balouchi@gmail.com · +98 912 820 0682</span>
-    </div>
-  </div>
-</footer>
-
-<script>window.SITE_ROOT = ""; window.SITE_LANG = "fa";</script>
-<script src="/js/main.js"></script>
 </body>
 </html>
