@@ -1,15 +1,60 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>انتقال به صفحه‌ی جدید…</title>
-<meta name="robots" content="noindex">
-<link rel="canonical" href="https://lean-construction.ir/contact.html">
-<script>location.replace("/contact.html");</script>
-<meta http-equiv="refresh" content="0; url=/contact.html">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تماس با ما | مشاوره ساخت ناب</title>
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css');
+        body { font-family: 'Vazirmatn', sans-serif; margin: 0; background: #f8fafc; color: #1e293b; line-height: 1.8; }
+        header { background: #fff; border-bottom: 1px solid #e2e8f0; padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; }
+        .contact-box { background: #fff; padding: 40px; margin: 50px auto; max-width: 600px; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+        .form-group { margin-bottom: 20px; }
+        .form-group label { display: block; margin-bottom: 8px; font-weight: 600; color: #0f172a; }
+        .form-group input, .form-group textarea { width: 100%; padding: 12px; border: 1px solid #cbd5e1; border-radius: 6px; box-sizing: border-box; font-family: inherit; }
+        button { background: #2563eb; color: #fff; border: none; padding: 14px 28px; border-radius: 6px; font-weight: 600; cursor: pointer; width: 100%; font-family: 'Vazirmatn'; }
+        button:hover { background: #1d4ed8; }
+        footer { background: #0f172a; color: #94a3b8; text-align: center; padding: 30px; margin-top: 60px; }
+    </style>
 </head>
-<body style="background:#0a0a0c;color:#f4f2ec;font-family:Vazirmatn,Tahoma,sans-serif;display:grid;place-items:center;height:100vh;margin:0;">
-<p>این صفحه منتقل شده است — <a href="/contact.html" style="color:#f2b33d;">اینجا کلیک کنید</a>.</p>
+<body>
+    <header>
+        <a href="/fa/index.html" style="font-weight:700; text-decoration:none; color:#0f172a; font-size:20px;">خدمات <span style="color:#2563eb;">ساخت ناب</span></a>
+        <nav style="display:flex; gap:20px;">
+            <a href="/fa/index.html" style="text-decoration:none; color:#475569;">صفحه اصلی</a>
+            <a href="/fa/services.html" style="text-decoration:none; color:#475569;">خدمات</a>
+            <a href="/fa/resume.html" style="text-decoration:none; color:#475569;">رزومه مشاور</a>
+            <a href="/fa/contact.html" style="text-decoration:none; color:#2563eb; font-weight:bold;">تماس با ما</a>
+        </nav>
+    </header>
+
+    <div class="contact-box">
+        <h1 style="margin-top:0; color:#0f172a;">ارتباط با ما و درخواست مشاوره</h1>
+        <p style="color:#64748b; margin-bottom:30px;">جهت دریافت خدمات مشاوره ساخت ناب، کنترل پروژه و ارزیابی فنی فرم زیر را تکمیل کنید.</p>
+        
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label>نام و نام خانوادگی</label>
+                <input type="text" placeholder="نام خود را وارد کنید" required>
+            </div>
+            <div class="form-group">
+                <label>پست الکترونیک</label>
+                <input type="email" placeholder="example@domain.com" required>
+            </div>
+            <div class="form-group">
+                <label>نام شرکت / سازمان</label>
+                <input type="text" placeholder="نام مجموعه یا پروژه">
+            </div>
+            <div class="form-group">
+                <label>توضیحات و شرح نیاز</label>
+                <textarea rows="5" placeholder="جزئیات پروژه خود را بنویسید..."></textarea>
+            </div>
+            <button type="submit">ارسال درخواست</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 خدمات مشاوره ساخت ناب. تمامی حقوق محفوظ است.</p>
+    </footer>
 </body>
 </html>
