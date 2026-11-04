@@ -1,0 +1,75 @@
+{
+  "_readme": "این فایل، لیست مقالات وبلاگ رو مدیریت می‌کنه (هم در صفحه اصلی و هم در صفحه‌ی وبلاگ). برای افزودن مقاله‌ی جدید: ۱) یک فایل html جدید برای متن کامل مقاله در پوشه‌ی blog/ (و نسخه انگلیسی در en/blog/) بساز — می‌توانی از blog/lean-construction-chist.html به‌عنوان قالب استفاده کنی. ۲) یک آبجکت جدید به آرایه‌ی posts زیر اضافه کن و status را 'published' بگذار. جدیدترین مقاله را همیشه در ابتدای آرایه قرار بده (ترتیب نمایش = ترتیب آرایه). برای آیکون از یکی از این مقادیر استفاده کن: lean, pm, km, risk, training, expert — یا آن را خالی بگذار تا آیکون پیش‌فرض استفاده شود.",
+  "posts": [
+    {
+      "id": "melkshenaas",
+      "status": "published",
+      "date": "2026-10-26",
+      "icon": "expert",
+      "tag_fa": "معرفی",
+      "tag_en": "INTRODUCTION",
+      "title_fa": "معرفی «ملک‌شناس»: ارزیابی فنی و حقوقی آپارتمان، قبل از تصمیم به خرید",
+      "title_en": "Introducing Melkshenas: Technical & Legal Apartment Assessment Before You Buy",
+      "excerpt_fa": "معرفی ملک‌شناس (melkshenaas.ir)؛ سرویس ارزیابی فنی، مهندسی و حقوقی آپارتمان‌های مسکونی تهران با مدل امتیازدهی ۱۲۰ شاخصی MPR و گزارش مهرشده‌ی کارشناس رسمی دادگستری.",
+      "excerpt_en": "Introducing melkshenaas.ir — a technical, engineering and legal assessment service for Tehran apartments, built on a 120-indicator MPR rating model.",
+      "link_fa": "blog/melkshenaas.html",
+      "link_en": "en/blog/melkshenaas.html"
+    },
+    {
+      "id": "takt-planning",
+      "status": "published",
+      "date": "2026-09-06",
+      "icon": "lean",
+      "tag_fa": "LEAN CONSTRUCTION",
+      "tag_en": "LEAN CONSTRUCTION",
+      "title_fa": "تکت پلنینگ (Takt Planning) چیست و چرا باید در پروژه‌های ساختمانی ایران به آن توجه کرد؟",
+      "title_en": "What Is Takt Planning — and Why Should Construction Projects in Iran Pay Attention to It?",
+      "excerpt_fa": "معرفی تکت پلنینگ، ابزاری ساده و مؤثر از ساخت‌وساز ناب برای ایجاد جریان کار قابل‌پیش‌بینی در کارگاه.",
+      "excerpt_en": "An introduction to Takt Planning, a simple and effective Lean Construction tool for predictable site workflow.",
+      "link_fa": "blog/takt-planning.html",
+      "link_en": "en/blog/takt-planning.html"
+    },
+    {
+      "id": "km-mistakes",
+      "status": "published",
+      "date": "2026-08-27",
+      "icon": "km",
+      "tag_fa": "KNOWLEDGE MANAGEMENT",
+      "tag_en": "KNOWLEDGE MANAGEMENT",
+      "title_fa": "۵ اشتباه رایج در مدیریت دانش پروژه‌های ساختمانی",
+      "title_en": "5 Common Knowledge-Management Mistakes on Construction Projects",
+      "excerpt_fa": "پنج اشتباه رایجی که شرکت‌های پیمانکاری در مدیریت دانش مرتکب می‌شوند، و راه‌حل عملی هرکدام.",
+      "excerpt_en": "Five common knowledge-management mistakes contracting firms make, and a practical fix for each.",
+      "link_fa": "blog/km-mistakes.html",
+      "link_en": "en/blog/km-mistakes.html"
+    },
+    {
+      "id": "lean-construction-chist",
+      "status": "published",
+      "date": "2026-07-20",
+      "icon": "lean",
+      "tag_fa": "LEAN CONSTRUCTION",
+      "tag_en": "LEAN CONSTRUCTION",
+      "title_fa": "ساخت‌وساز ناب چیست و چرا پروژه‌های عمرانی ایران به آن نیاز دارند؟",
+      "title_en": "What Is Lean Construction — and Why Iran's Projects Need It",
+      "excerpt_fa": "معرفی اصول Lean Construction و کاربرد عملی آن در کاهش هدررفت منابع در کارگاه‌های ساختمانی.",
+      "excerpt_en": "An introduction to Lean Construction principles and their practical use in reducing resource waste on construction sites.",
+      "link_fa": "blog/lean-construction-chist.html",
+      "link_en": "en/blog/lean-construction.html"
+    },
+    {
+      "id": "primavera-p6",
+      "status": "soon",
+      "date": "2026-08-15",
+      "icon": "pm",
+      "tag_fa": "به‌زودی",
+      "tag_en": "COMING SOON",
+      "title_fa": "Primavera P6 چطور بهره‌وری زمان‌بندی پروژه را بالا می‌برد؟",
+      "title_en": "How Primavera P6 Improves Project Scheduling Productivity",
+      "excerpt_fa": "این مقاله در حال آماده‌سازی است.",
+      "excerpt_en": "This article is being prepared.",
+      "link_fa": "",
+      "link_en": ""
+    }
+  ]
+}

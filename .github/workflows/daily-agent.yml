@@ -1,0 +1,33 @@
+name: Daily AI Agent
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-article:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run AI Agent
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python agent.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "AI Agent"
+          git config --global user.email "agent@lean-construction.ir"
+          git add -A
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Add daily AI article + refresh blog index" && git push)
