@@ -589,3 +589,111 @@ html.no-js .reveal { opacity: 1; transform: none; }
   html { scroll-behavior: auto; }
   .reveal { opacity: 1; transform: none; }
 }
+
+/* ============================================================
+   افزودنی‌های نسخه اصلاحی — فرببلند مشترک فرم/تماس/رزومه
+   ============================================================ */
+
+/* ---------- لینک‌های فوتر ---------- */
+.footer-bottom a, .footer-links a { color: #94a3b8; }
+.footer-bottom a:hover, .footer-links a:hover { color: #fff; }
+
+/* ---------- چیپ‌های اعتبار (Trust chips) ---------- */
+.chip-row { display: flex; flex-wrap: wrap; gap: 10px; margin: 18px 0 4px; }
+.chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  border: 1px solid var(--line-strong);
+  background: #fff;
+  color: var(--ink-soft);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 13px; font-weight: 600;
+}
+.chip i { width: 7px; height: 7px; border-radius: 50%; background: var(--primary); flex-shrink: 0; }
+
+/* ---------- هدر پروفایل رزومه ---------- */
+.profile-card {
+  display: flex; gap: 32px; align-items: center; flex-wrap: wrap;
+  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-2) 100%);
+  border-radius: 14px; padding: 38px 36px; margin-bottom: 34px;
+}
+.profile-card img {
+  width: 150px; height: 150px; border-radius: 50%; object-fit: cover;
+  border: 4px solid var(--primary); flex-shrink: 0;
+}
+.profile-card h1 { color: #fff; font-size: clamp(24px, 3.4vw, 34px); margin-bottom: 6px; }
+.profile-card .role { color: var(--amber-soft); font-weight: 700; margin-bottom: 10px; }
+.profile-card .subline { color: #94a3b8; font-size: 14.5px; }
+.profile-card .contact-line {
+  display: flex; flex-wrap: wrap; gap: 8px 18px; margin-top: 16px;
+  font-size: 14px; color: #cbd5e1;
+}
+.profile-card .contact-line a { color: #fff; border-bottom: 1px dashed rgba(255,255,255,0.35); }
+.profile-card .contact-line a:hover { border-bottom-color: #fff; }
+
+/* ---------- رزومه: لیست‌ها و کارت‌های جمع‌وجور ---------- */
+.cred-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+.cred-item {
+  background: #fff; border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 18px 20px;
+}
+.cred-item b { color: var(--navy); display: block; margin-bottom: 2px; }
+.cred-item span { color: var(--ink-soft); font-size: 14px; }
+.compact-list { color: var(--ink-soft); }
+.compact-list li { margin-bottom: 8px; list-style: none; padding-inline-start: 18px; position: relative; }
+.compact-list li::before { content: ""; position: absolute; inset-inline-start: 0; top: 0.72em; width: 7px; height: 7px; border-radius: 50%; background: var(--primary); }
+
+/* ---------- فرم تماس ---------- */
+.contact-layout { display: grid; grid-template-columns: 1fr 1.4fr; gap: 36px; align-items: start; margin-top: 40px; }
+.contact-side { display: grid; gap: 14px; }
+.contact-item {
+  display: flex; gap: 14px; align-items: flex-start;
+  background: #fff; border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 18px 20px;
+}
+.contact-item .ico {
+  width: 42px; height: 42px; flex-shrink: 0;
+  display: grid; place-items: center;
+  background: var(--primary-tint); color: var(--primary);
+  border-radius: 10px; font-size: 18px; font-weight: 700;
+}
+.contact-item b { color: var(--navy); display: block; font-size: 14.5px; }
+.contact-item a, .contact-item span.val { color: var(--ink-soft); font-size: 14px; word-break: break-word; }
+.contact-item a:hover { color: var(--primary); }
+.contact-card {
+  background: #fff; border: 1px solid var(--line);
+  border-radius: 14px; padding: 34px; box-shadow: var(--shadow-soft);
+}
+.form-group { margin-bottom: 18px; }
+.form-group label { display: block; margin-bottom: 7px; font-weight: 600; color: var(--navy); font-size: 14px; }
+.form-group input, .form-group textarea {
+  width: 100%; padding: 12px 14px;
+  border: 1px solid var(--line-strong); border-radius: var(--radius);
+  font-family: inherit; font-size: 14.5px; color: var(--ink);
+  background: #fff; transition: border-color 0.2s, box-shadow 0.2s;
+}
+.form-group input:focus, .form-group textarea:focus {
+  outline: none; border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+.form-note { font-size: 13px; color: var(--ink-dim); margin: 12px 0 0; }
+.form-status { margin-top: 14px; font-size: 14px; font-weight: 600; display: none; padding: 12px 16px; border-radius: var(--radius); }
+.form-status.ok { display: block; background: #ecfdf5; color: #059669; border: 1px solid #a7f3d0; }
+.form-status.err { display: block; background: #fef2f2; color: #dc2626; border: 1px solid #fecaca; }
+
+/* ---------- نوار CTA پایین ---------- */
+.cta-band {
+  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-2) 100%);
+  border-radius: 16px; padding: 46px 36px; text-align: center;
+}
+.cta-band h2 { color: #fff; font-size: clamp(22px, 3vw, 30px); margin-bottom: 10px; }
+.cta-band p { color: #94a3b8; margin-bottom: 24px; }
+
+@media (max-width: 860px) {
+  .contact-layout { grid-template-columns: 1fr; }
+  .profile-card { padding: 30px 24px; }
+}
+
+/* ---- v2 additions: phone numbers never wrap, keep LTR digit order ---- */
+a[href^="tel:"] { white-space: nowrap; direction: ltr; unicode-bidi: isolate; }
+a[href^="mailto:"] { unicode-bidi: plaintext; }

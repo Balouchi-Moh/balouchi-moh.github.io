@@ -1,112 +1,227 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" class="no-js">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Mohammad Balouchi | Construction Management & Lean Construction Services</title>
-    <meta name="description" content="Consulting services in Construction Management and Lean Construction: Last Planner System implementation, Takt planning, project controls, and advisory for contractors and developers across the GCC.">
-    
-    <link rel="alternate" hreflang="en" href="https://lean-construction.ir/" />
-    <link rel="alternate" hreflang="ar" href="https://lean-construction.ir/ar/" />
-    <link rel="alternate" hreflang="fa" href="https://lean-construction.ir/fa/" />
-    <link rel="canonical" href="https://lean-construction.ir/" />
-
-    <link rel="stylesheet" href="/css/style.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap');
-        :root { --primary: #2563eb; --dark-bg: #0f172a; --text-dark: #1e293b; --text-muted: #64748b; }
-        body { margin: 0; font-family: 'Space Grotesk', -apple-system, sans-serif; background-color: #fff; color: var(--text-dark); line-height: 1.6; }
-        header { background: #ffffff; border-bottom: 1px solid #e2e8f0; padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; }
-        .logo { font-weight: 700; font-size: 20px; color: var(--dark-bg); text-decoration: none; }
-        .logo span { color: var(--primary); }
-        nav { display: flex; gap: 20px; align-items: center; }
-        nav a { text-decoration: none; color: #475569; font-weight: 500; }
-        nav a.active { color: var(--primary); font-weight: 700; }
-        .lang-switch { border-left: 1px solid #cbd5e1; padding-left: 15px; margin-left: 10px; font-size: 14px; }
-        .hero { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: #fff; padding: 90px 5%; text-align: center; }
-        .hero h1 { font-size: 40px; margin-bottom: 15px; line-height: 1.2; max-width: 900px; margin-left: auto; margin-right: auto; }
-        .hero p { font-size: 18px; color: #94a3b8; max-width: 750px; margin: 0 auto 30px auto; }
-        .btn-primary { background: var(--primary); color: #fff; padding: 14px 28px; border-radius: 6px; text-decoration: none; font-weight: 600; display: inline-block; }
-        .btn-outline { background: transparent; color: #fff; padding: 14px 28px; border-radius: 6px; text-decoration: none; border: 1px solid #475569; font-weight: 600; display: inline-block; }
-        .services { padding: 80px 5%; background: #f8fafc; }
-        .services h2 { text-align: center; font-size: 32px; color: var(--dark-bg); margin-bottom: 50px; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
-        .card { background: #fff; border: 1px solid #e2e8f0; padding: 30px; border-radius: 8px; }
-        .card h3 { color: var(--dark-bg); font-size: 20px; margin-top: 0; }
-        .card p { color: var(--text-muted); font-size: 15px; }
-        
-        /* اصلاح کامل تصویر پروفایل بدون نوار مشکی یا خطای گرافیکی */
-        .about-brief { padding: 70px 5%; display: flex; align-items: center; gap: 40px; flex-wrap: wrap; }
-        .profile-img-container { width: 220px; height: 220px; flex-shrink: 0; border-radius: 50%; overflow: hidden; border: 4px solid #2563eb; background: #e2e8f0; display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
-        .profile-img-container img { width: 100%; height: 100%; object-fit: cover; display: block; border: none; outline: none; }
-        
-        footer { background: var(--dark-bg); color: #94a3b8; padding: 40px 5%; text-align: center; font-size: 14px; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dr. Mohammad Balouchi, PhD | Lean Construction & Project Controls Consultant — GCC</title>
+<meta name="description" content="Independent Lean Construction and Project Controls consultant with 15+ years on megaprojects — including 30+ engineering contracts for Iran Mall. Last Planner® System, Takt planning, Primavera P6 and delay analysis for contractors and developers across the GCC.">
+<meta name="keywords" content="lean construction consultant GCC, Last Planner System, takt planning, Primavera P6, delay analysis, project controls, Dr. Mohammad Balouchi">
+<link rel="canonical" href="https://lean-construction.ir/">
+<link rel="alternate" hreflang="en" href="https://lean-construction.ir/" />
+<link rel="alternate" hreflang="ar" href="https://lean-construction.ir/ar/" />
+<link rel="alternate" hreflang="fa" href="https://lean-construction.ir/fa/" />
+<meta property="og:type" content="website">
+<meta property="og:title" content="Dr. Mohammad Balouchi, PhD | Lean Construction & Project Controls Consultant — GCC">
+<meta property="og:description" content="15+ years on megaprojects. 30+ engineering contracts managed for Iran Mall. Lean Construction, Takt planning and project controls for GCC contractors and developers.">
+<meta property="og:image" content="/images/profile.jpg">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 
-    <header>
-        <a href="/" class="logo">Dr. Mohammad <span>Balouchi</span></a>
-        <nav>
-            <a href="/" class="active">Home</a>
-            <a href="/services.html">Services</a>
-            <a href="/blog/index.html">Insights</a>
-            <a href="/resume.html">Consultant Resume</a>
-            <a href="/contact.html">Contact</a>
-            <div class="lang-switch">
-                <strong style="color: var(--primary);">EN</strong> | 
-                <a href="/ar/index.html">AR</a> | 
-                <a href="/fa/index.html">FA</a>
-            </div>
-        </nav>
-    </header>
+<header class="site-header">
+  <nav class="nav">
+    <a href="/" class="brand">
+      <span class="brand-mark">MB</span>
+      <span class="brand-text"><b>Dr. Mohammad Balouchi</b><span>LEAN CONSTRUCTION · GCC</span></span>
+    </a>
+    <button class="nav-toggle" aria-label="Open menu">☰</button>
+    <ul class="nav-links">
+      <li><a href="/" class="active">Home</a></li>
+      <li><a href="/services.html">Services</a></li>
+      <li><a href="/blog/index.html">Insights</a></li>
+      <li><a href="/resume.html">Résumé</a></li>
+      <li><a href="/ar/index.html" class="lang-switch">عربي</a></li>
+      <li><a href="/fa/index.html" class="lang-switch">فارسی</a></li>
+      <li><a href="/contact.html" class="nav-cta">Request Consultation</a></li>
+    </ul>
+  </nav>
+</header>
 
-    <section class="hero">
-        <h1>Construction Management & Lean Construction Services</h1>
-        <p>Empowering contractors and developers across the GCC with advanced Lean Construction methodologies, Last Planner System, and world-class project controls.</p>
-        <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
-            <a href="/contact.html" class="btn-primary">Request Consultation</a>
-            <a href="/services.html" class="btn-outline">Our Services</a>
+<section class="hero crop">
+  <div class="wrap hero-inner">
+    <div>
+      <div class="eyebrow">LEAN CONSTRUCTION · PROJECT CONTROLS · GCC &amp; MIDDLE EAST</div>
+      <h1 class="hero-title">Deliver projects on time — with <em>Lean Construction</em> and world-class project controls</h1>
+      <p class="hero-desc">
+        I'm <strong>Dr. Mohammad Balouchi, PhD</strong> — an independent consultant with 15+ years on
+        megaprojects, including 30+ engineering contracts for <strong>Iran Mall</strong>, one of the world's largest shopping malls. I help GCC contractors and developers cut schedule delays, raise plan reliability
+        (PPC), and hand over predictably.
+      </p>
+      <div class="hero-tags">
+        <span class="tag">Last Planner® System</span>
+        <span class="tag">Takt Planning</span>
+        <span class="tag">Primavera P6</span>
+        <span class="tag">Delay Analysis</span>
+        <span class="tag">Knowledge Management</span>
+      </div>
+      <div class="hero-cta">
+        <a href="/contact.html" class="btn btn-amber">Request a Consultation</a>
+        <a href="/services.html" class="btn btn-ghost">View Services</a>
+      </div>
+    </div>
+    <div class="hero-figure">
+      <div class="stamp-ring"></div>
+      <img class="portrait" src="/images/profile.jpg" alt="Dr. Mohammad Balouchi, PhD — Lean Construction Consultant">
+      <div class="badge-phd">PhD · Construction Management</div>
+    </div>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>LAST PLANNER® SYSTEM</span><i>✦</i><span>TAKT PLANNING</span><i>✦</i><span>PRIMAVERA P6</span><i>✦</i><span>DELAY FORENSICS</span><i>✦</i><span>IRAN MALL</span><i>✦</i><span>LEAN CONSTRUCTION</span><i>✦</i><span>PMBOK</span><i>✦</i><span>PRINCE2</span><i>✦</i>
+    <span>LAST PLANNER® SYSTEM</span><i>✦</i><span>TAKT PLANNING</span><i>✦</i><span>PRIMAVERA P6</span><i>✦</i><span>DELAY FORENSICS</span><i>✦</i><span>IRAN MALL</span><i>✦</i><span>LEAN CONSTRUCTION</span><i>✦</i><span>PMBOK</span><i>✦</i><span>PRINCE2</span><i>✦</i>
+  </div>
+</div>
+
+<section class="reveal">
+  <div class="wrap">
+    <div class="stats">
+      <div class="stat"><b data-count="15" data-prefix="+">15+</b><span>Years of hands-on experience</span></div>
+      <div class="stat"><b data-count="30" data-prefix="+">30+</b><span>Engineering contracts managed — Iran Mall</span></div>
+      <div class="stat"><b data-count="15" data-prefix="+">15+</b><span>Years leading R&amp;D &amp; Knowledge Management (Kayson)</span></div>
+      <div class="stat"><b>PhD</b><span>Construction Management — Semnan University</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="alt reveal">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">SERVICES</div>
+      <h2 class="section-title">How I can help your project</h2>
+      <p class="section-sub">Four focused advisory lines — each one aimed at a single outcome: predictable delivery without wasted time, budget or resources.</p>
+    </div>
+    <div class="grid-3">
+      <div class="card">
+        <div class="num">01</div>
+        <h3>Last Planner® System (LPS)</h3>
+        <p>Scientific site implementation of collaborative planning, reliable commitment tracking (PPC) and root-cause variance analysis — so promises to the client are actually kept.</p>
+        <a class="more" href="/services.html#lps">Learn more →</a>
+      </div>
+      <div class="card">
+        <div class="num">02</div>
+        <h3>Takt Time Planning</h3>
+        <p>Workflow synchronization for high-rise, residential and infrastructure megaprojects — turning repetitive construction into continuous, predictable production.</p>
+        <a class="more" href="/services.html#takt">Learn more →</a>
+      </div>
+      <div class="card">
+        <div class="num">03</div>
+        <h3>Project Controls &amp; Claims</h3>
+        <p>Primavera P6 baseline scheduling, progress monitoring, Earned Value Management and forensic delay analysis for claims and dispute mitigation.</p>
+        <a class="more" href="/services.html#controls">Learn more →</a>
+      </div>
+      <div class="card">
+        <div class="num">04</div>
+        <h3>Valuation &amp; Due Diligence</h3>
+        <p>Technical appraisal, feasibility analysis and asset valuation to international standards — for developers and institutional investors entering the region.</p>
+        <a class="more" href="/services.html#valuation">Learn more →</a>
+      </div>
+    </div>
+    <div style="margin-top:30px;text-align:center;">
+      <a href="/services.html" class="btn btn-dark">View All Services</a>
+    </div>
+  </div>
+</section>
+
+<section class="reveal">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">THE CONSULTANT</div>
+      <h2 class="section-title">Dr. Mohammad Balouchi, PhD</h2>
+      <p class="section-sub">Construction Management &amp; Lean Construction Consultant</p>
+    </div>
+    <div class="hero-inner" style="align-items:center;">
+      <div>
+        <p style="color:var(--ink); font-size:16.5px; margin-bottom:14px;">
+          For <strong>15 years</strong> I led R&amp;D and Knowledge Management at <strong>Kayson</strong>, one of the region's
+          largest general contractors — and spent 15+ years across dam, commercial and high-rise megaprojects,
+          including <strong>Iran Mall</strong>.
+        </p>
+        <p style="color:var(--ink-soft); margin-bottom:14px;">
+          Today I help owners and contractors across the GCC turn late, chaotic projects into predictable
+          delivery: reliable weekly planning with the Last Planner® System, takt-based workflow, and
+          research-grade delay analysis.
+        </p>
+        <p style="color:var(--ink-soft); margin-bottom:6px;">
+          As an Assistant Professor of Construction Management, I bridge academic rigor with real site
+          execution — decisions grounded in evidence, not guesswork.
+        </p>
+        <div class="chip-row">
+          <span class="chip"><i></i>PhD, Construction Management</span>
+          <span class="chip"><i></i>15+ years on megaprojects</span>
+          <span class="chip"><i></i>Iran Mall · 30+ contracts</span>
+          <span class="chip"><i></i>Assistant Professor</span>
+          <span class="chip"><i></i>EN · AR · FA working languages</span>
         </div>
-    </section>
-
-    <section class="services">
-        <h2>Core Expertise & Advisory Solutions</h2>
-        <div class="grid">
-            <div class="card">
-                <h3>Last Planner® System (LPS)</h3>
-                <p>Scientific site implementation of collaborative planning, reliable commitments tracking (PPC), and variance analysis.</p>
-            </div>
-            <div class="card">
-                <h3>Takt Time Planning</h3>
-                <p>Advanced workflow synchronization for high-rise residential, commercial, and infrastructure megaprojects.</p>
-            </div>
-            <div class="card">
-                <h3>Project Controls & Claims</h3>
-                <p>Comprehensive baseline scheduling, delay forensics, and risk management strategies based on applied research.</p>
-            </div>
-            <div class="card">
-                <h3>Real Estate & Technical Valuation</h3>
-                <p>Expert technical appraisal, feasibility analysis, and asset valuation for regional institutional investors.</p>
-            </div>
+        <div class="hero-cta">
+          <a href="/resume.html" class="btn btn-dark">View Full Résumé</a>
+          <a href="/contact.html" class="btn btn-ghost" style="color:var(--navy); border-color:var(--line-strong);">Work With Me</a>
         </div>
-    </section>
+      </div>
+      <div class="hero-figure">
+        <div class="stamp-ring"></div>
+        <img class="portrait" src="/images/profile.jpg" alt="Dr. Mohammad Balouchi, PhD">
+        <div class="badge-phd">Independent Consultant · GCC Focus</div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <section class="about-brief">
-        <div class="profile-img-container">
-            <img src="/images/profile.jpg" alt="Dr. Mohammad Balouchi">
-        </div>
-        <div style="flex: 1; min-width: 280px;">
-            <h2 style="margin-top: 0; color: #0f172a;">Dr. Mohammad Balouchi</h2>
-            <p style="color: #2563eb; font-weight: 600; margin-bottom: 15px;">Construction Management & Lean Construction Consultant</p>
-            <p style="color: #475569; line-height: 1.7;">As an independent consultant, I provide construction management and lean construction services that bridge academic rigor with real-world site execution. My mission is to help construction organizations in the Middle East eliminate workflow waste, optimize production schedules, and maximize investment value.</p>
-            <a href="/resume.html" style="color: #2563eb; font-weight: 600; text-decoration: none;">View Consultant Resume &rarr;</a>
-        </div>
-    </section>
+<section class="alt reveal">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">NOTABLE PROJECTS</div>
+      <h2 class="section-title">Selected key projects</h2>
+      <p class="section-sub">Major projects where I held an execution or advisory role.</p>
+    </div>
+    <div class="grid-3" id="projects-grid">
+      <!-- Rendered dynamically from /data/projects.json by /js/main.js -->
+    </div>
+  </div>
+</section>
 
-    <footer>
-        <p>&copy; 2026 Dr. Mohammad Balouchi - Lean Construction Advisory. All rights reserved.</p>
-    </footer>
+<section class="alt reveal">
+  <div class="wrap" style="text-align:center;">
+    <div class="cta-band">
+      <div class="eyebrow" style="justify-content:center;">START HERE</div>
+      <h2>Worried about delays on your current project?</h2>
+      <p>Send me your project's basic details — I'll reply within 24 hours with a candid assessment of how Lean methods and tighter project controls could help.</p>
+      <a href="/contact.html" class="btn btn-amber">Request a Free Intro Call</a>
+    </div>
+  </div>
+</section>
 
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="brand" style="color:var(--ink-on-navy);">
+        <span class="brand-mark">MB</span>
+        <span class="brand-text"><b>Dr. Mohammad Balouchi, PhD</b><span>Lean Construction &amp; Project Controls</span></span>
+      </div>
+      <ul class="footer-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/resume.html">Résumé</a></li>
+        <li><a href="/blog/index.html">Insights</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Dr. Mohammad Balouchi — All rights reserved</span>
+      <span>
+        <a href="mailto:balouchi@gmail.com">balouchi@gmail.com</a> ·
+        <a href="tel:+989128200682" dir="ltr">+98 912 820 0682</a> ·
+        <a href="https://wa.me/989128200682" target="_blank" rel="noopener">WhatsApp</a> ·
+        <a href="https://www.linkedin.com/in/mohammad-balouchi" target="_blank" rel="noopener">LinkedIn</a> ·
+        Remote consultant — GCC &amp; Middle East
+      </span>
+    </div>
+  </div>
+</footer>
+
+<script>window.SITE_ROOT = "/"; window.SITE_LANG = "en";</script>
+<script src="/js/main.js"></script>
 </body>
 </html>
