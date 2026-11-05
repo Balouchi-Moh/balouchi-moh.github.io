@@ -699,3 +699,153 @@ html.no-js .reveal { opacity: 1; transform: none; }
 /* ---- v2 additions: phone numbers never wrap, keep LTR digit order ---- */
 a[href^="tel:"] { white-space: nowrap; direction: ltr; unicode-bidi: isolate; }
 a[href^="mailto:"] { unicode-bidi: plaintext; }
+
+/* ============================================================
+   v5 additions — service-first homepage (ref: planningengineer.net)
+   hero with Iran Mall photo bg · feature band · steps · svc cards
+   ============================================================ */
+
+/* ---------- hero with photo background ---------- */
+.hero-photo {
+  position: relative;
+  overflow: hidden;
+  background: var(--navy);
+  color: #fff;
+  padding: 96px 0 84px;
+}
+.hero-bg {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;
+  object-position: center 42%;
+  opacity: 0.5;
+  filter: saturate(0.82) contrast(1.05);
+}
+.hero-shade {
+  position: absolute; inset: 0;
+  background:
+    linear-gradient(180deg, rgba(15,23,42,0.94) 0%, rgba(15,23,42,0.72) 46%, rgba(15,23,42,0.88) 100%),
+    radial-gradient(120% 90% at 18% 20%, rgba(15,23,42,0.55), transparent 60%);
+}
+.hero-photo > .wrap { position: relative; z-index: 1; }
+.hero-photo .hero-desc { max-width: 680px; }
+
+/* trust chips on dark */
+.hero-cred { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 26px; }
+.chip-glass {
+  background: rgba(255,255,255,0.07);
+  border-color: rgba(255,255,255,0.22);
+  color: #e2e8f0;
+}
+.chip-glass i { background: var(--amber-soft); }
+
+/* ---------- staggered card reveal ---------- */
+section.reveal.in .card, section.reveal.in .step, section.reveal.in .stat {
+  animation: rise 0.55s var(--ease-out) both;
+}
+section.reveal.in .card:nth-child(2), section.reveal.in .step:nth-child(2), section.reveal.in .stat:nth-child(2) { animation-delay: 0.08s; }
+section.reveal.in .card:nth-child(3), section.reveal.in .step:nth-child(3), section.reveal.in .stat:nth-child(3) { animation-delay: 0.16s; }
+section.reveal.in .card:nth-child(4), section.reveal.in .step:nth-child(4), section.reveal.in .stat:nth-child(4) { animation-delay: 0.24s; }
+section.reveal.in .card:nth-child(5) { animation-delay: 0.32s; }
+section.reveal.in .card:nth-child(6) { animation-delay: 0.4s; }
+
+/* anchors land below sticky header */
+section[id] { scroll-margin-top: calc(var(--header-h) + 14px); }
+
+/* ---------- feature band (Iran Mall) ---------- */
+.feature-band {
+  position: relative;
+  overflow: hidden;
+  background: var(--navy);
+  color: #fff;
+  padding: 72px 0;
+  border-block: 1px solid rgba(255,255,255,0.08);
+}
+.feature-band::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: url('../images/hero-iranmall.jpg') center 38% / cover no-repeat;
+  opacity: 0.34;
+  filter: saturate(0.85);
+}
+.feature-band::after {
+  content: '';
+  position: absolute; inset: 0;
+  background: linear-gradient(90deg, rgba(15,23,42,0.96) 0%, rgba(15,23,42,0.82) 55%, rgba(15,23,42,0.6) 100%);
+}
+html[dir="rtl"] .feature-band::after {
+  background: linear-gradient(270deg, rgba(15,23,42,0.96) 0%, rgba(15,23,42,0.82) 55%, rgba(15,23,42,0.6) 100%);
+}
+.feature-inner { position: relative; z-index: 1; max-width: 760px; }
+html[dir="ltr"] .feature-inner { margin-right: auto; }
+html[dir="rtl"] .feature-inner { margin-left: auto; }
+.feature-band .section-title { color: #fff; }
+.feature-band .eyebrow { color: var(--amber-soft); }
+.feature-desc { color: #cbd5e1; font-size: 16px; }
+.feature-desc strong { color: #fff; }
+
+/* ---------- process steps ---------- */
+.steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.step {
+  position: relative;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--primary);
+  border-radius: var(--radius);
+  padding: 24px 20px;
+  transition: transform 0.25s var(--ease-out), box-shadow 0.25s var(--ease-out);
+}
+.step:hover { transform: translateY(-4px); box-shadow: var(--shadow-soft); }
+.step-num {
+  color: var(--primary);
+  font-family: var(--font-en);
+  font-size: 26px; font-weight: 800;
+  opacity: 0.55;
+  margin-bottom: 8px;
+}
+.step h3 { color: var(--navy); font-size: 17px; margin-bottom: 8px; }
+.step p { color: var(--ink-soft); font-size: 14px; margin: 0; }
+
+/* ---------- service detail cards (services page) ---------- */
+.service-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-inline-start: 5px solid var(--primary);
+  border-radius: var(--radius);
+  padding: 30px 32px;
+  margin-bottom: 22px;
+  transition: transform 0.25s var(--ease-out), box-shadow 0.25s var(--ease-out);
+}
+.service-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-soft); }
+.service-card:target { border-inline-start-color: var(--amber-soft); }
+.svc-head { display: flex; align-items: baseline; gap: 14px; margin-bottom: 10px; }
+.svc-head .num { font-family: var(--font-en); font-size: 13px; font-weight: 700; letter-spacing: 2px; color: var(--primary); flex-shrink: 0; }
+.svc-head h2 { color: var(--navy); font-size: clamp(18px, 2.2vw, 22px); margin: 0; line-height: 1.5; }
+.service-card p { color: var(--ink-soft); font-size: 15px; margin-bottom: 10px; }
+.svc-out {
+  background: var(--primary-tint);
+  border: 1px dashed rgba(37, 99, 235, 0.35);
+  border-radius: 6px;
+  padding: 10px 16px;
+  font-size: 13.5px !important;
+  color: var(--ink) !important;
+}
+.svc-out b { color: var(--primary-dark); }
+
+/* ---------- responsive ---------- */
+@media (max-width: 920px) {
+  .steps { grid-template-columns: repeat(2, 1fr); }
+  .hero-photo { padding: 72px 0 64px; }
+  .feature-band { padding: 56px 0; }
+}
+@media (max-width: 560px) {
+  .steps { grid-template-columns: 1fr; }
+  .svc-head { flex-direction: column; gap: 4px; }
+  .service-card { padding: 24px 20px; }
+  .hero-cred { gap: 8px; }
+  .chip-glass { font-size: 12px; padding: 5px 11px; }
+}
