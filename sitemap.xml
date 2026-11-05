@@ -3,51 +3,84 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://lean-construction.ir/</loc>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lean-construction.ir/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://lean-construction.ir/ar/"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://lean-construction.ir/fa/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://lean-construction.ir/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lean-construction.ir/"/>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://lean-construction.ir/services.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lean-construction.ir/services.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://lean-construction.ir/fa/services.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://lean-construction.ir/ar/services.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lean-construction.ir/services.html"/>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://lean-construction.ir/resume.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lean-construction.ir/resume.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://lean-construction.ir/fa/resume.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://lean-construction.ir/ar/resume.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lean-construction.ir/resume.html"/>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lean-construction.ir/contact.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lean-construction.ir/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://lean-construction.ir/fa/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://lean-construction.ir/ar/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lean-construction.ir/contact.html"/>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lean-construction.ir/blog/index.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lean-construction.ir/blog/index.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://lean-construction.ir/fa/blog/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lean-construction.ir/blog/index.html"/>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lean-construction.ir/en/index.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://lean-construction.ir/en/blog/index.html</loc>
+    <loc>https://lean-construction.ir/en/blog/takt-planning.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lean-construction.ir/en/blog/takt-planning.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://lean-construction.ir/blog/takt-planning.html"/>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://lean-construction.ir/fa/</loc>
-    <xhtml:link rel="alternate" hreflang="fa" href="https://lean-construction.ir/fa/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://lean-construction.ir/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://lean-construction.ir/ar/"/>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://lean-construction.ir/fa/blog/index.html</loc>
+    <loc>https://lean-construction.ir/en/blog/km-mistakes.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lean-construction.ir/en/blog/km-mistakes.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://lean-construction.ir/blog/km-mistakes.html"/>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://lean-construction.ir/ar/</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://lean-construction.ir/ar/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://lean-construction.ir/"/>
-    <xhtml:link rel="alternate" hreflang="fa" href="https://lean-construction.ir/fa/"/>
+    <loc>https://lean-construction.ir/en/blog/lean-construction.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lean-construction.ir/en/blog/lean-construction.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://lean-construction.ir/blog/lean-construction-chist.html"/>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://lean-construction.ir/en/blog/melkshenaas.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lean-construction.ir/en/blog/melkshenaas.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://lean-construction.ir/blog/melkshenaas.html"/>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://lean-construction.ir/articles/post-2026-07-30.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://lean-construction.ir/articles/post-2026-07-31.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <priority>0.5</priority>
   </url>
 </urlset>

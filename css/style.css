@@ -659,6 +659,8 @@ html.no-js .reveal { opacity: 1; transform: none; }
 }
 .contact-item b { color: var(--navy); display: block; font-size: 14.5px; }
 .contact-item a, .contact-item span.val { color: var(--ink-soft); font-size: 14px; word-break: break-word; }
+.contact-item a { display: block; white-space: nowrap; word-break: normal; }
+@media (max-width: 520px) { .contact-item a { font-size: 13px; } }
 .contact-item a:hover { color: var(--primary); }
 .contact-card {
   background: #fff; border: 1px solid var(--line);
