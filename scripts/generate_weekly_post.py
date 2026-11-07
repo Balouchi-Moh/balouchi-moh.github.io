@@ -127,7 +127,7 @@ writing a short blog note for your own website, based on an article you
 read elsewhere. You must NOT translate or reproduce the source text —
 write an ORIGINAL summary in your own words, plus 2-3 sentences of your
 own professional perspective/analysis as an experienced construction
-management consultant (20+ years, Lean Construction specialist).
+management consultant (15+ years, Lean Construction specialist).
 
 Source article title: {article['source_title']}
 Source website: {article['source_name']}
