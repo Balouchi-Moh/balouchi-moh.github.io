@@ -7,7 +7,9 @@
       "title_fa": "ایران‌مال",
       "title_en": "Iran Mall",
       "role_fa": "مشاور قراردادهای مهندسی · مدیریت بیش از ۳۰ قرارداد اجرایی",
-      "role_en": "Engineering Contracts Consultant · Managed 30+ execution contracts"
+      "role_en": "Engineering Contracts Consultant · Managed 30+ execution contracts",
+      "title_ar": "إيران مول",
+      "role_ar": "مستشار العقود الهندسية · إدارة أكثر من ٣٠ عقد تنفيذ"
     },
     {
       "id": "tabarakabad-dam",
@@ -15,7 +17,9 @@
       "title_fa": "سد تبارک‌آباد",
       "title_en": "Tabarak Abad Dam",
       "role_fa": "مدیریت اجرایی پروژه سد و سازه‌های آبی",
-      "role_en": "Executive project management — dam and hydraulic structures"
+      "role_en": "Executive project management — dam and hydraulic structures",
+      "title_ar": "سد تبارك آباد",
+      "role_ar": "الإدارة التنفيذية لمشروع سد ومنشآت مائية"
     },
     {
       "id": "kamandan-dam",
@@ -23,7 +27,9 @@
       "title_fa": "سد کمندان",
       "title_en": "Kamandan Dam",
       "role_fa": "مدیریت اجرایی پروژه سد و سازه‌های آبی",
-      "role_en": "Executive project management — dam and hydraulic structures"
+      "role_en": "Executive project management — dam and hydraulic structures",
+      "title_ar": "سد كمندان",
+      "role_ar": "الإدارة التنفيذية لمشروع سد ومنشآت مائية"
     },
     {
       "id": "kermanshah",
@@ -31,7 +37,9 @@
       "title_fa": "مجتمع مسکونی کرمانشاه",
       "title_en": "Kermanshah Residential Complex",
       "role_fa": "مدیریت اجرایی پروژه ساختمانی",
-      "role_en": "Executive construction project management"
+      "role_en": "Executive construction project management",
+      "title_ar": "مجمع كرمانشاه السكني",
+      "role_ar": "الإدارة التنفيذية لمشروع إنشائي"
     },
     {
       "id": "andishe",
@@ -39,7 +47,9 @@
       "title_fa": "پروژه اندیشه",
       "title_en": "Andishe Project",
       "role_fa": "مدیریت اجرایی و نظارت فنی پروژه",
-      "role_en": "Execution management and technical supervision"
+      "role_en": "Execution management and technical supervision",
+      "title_ar": "مشروع أنديشه",
+      "role_ar": "الإدارة التنفيذية والإشراف الفني على المشروع"
     },
     {
       "id": "project-01",
@@ -47,7 +57,9 @@
       "title_fa": "توسعه تجاری-اداری",
       "title_en": "Mixed-Use Commercial Development",
       "role_fa": "مشاوره مدیریت ساخت",
-      "role_en": "Construction management consulting"
+      "role_en": "Construction management consulting",
+      "title_ar": "مشروع تجاري إداري متعدد الاستخدامات",
+      "role_ar": "استشارات إدارة التشييد"
     }
   ]
 }

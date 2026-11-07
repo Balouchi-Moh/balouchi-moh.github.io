@@ -153,7 +153,7 @@
         var posts = data.posts || [];
         if (limit) posts = posts.slice(0, limit);
         container.innerHTML = posts.map(function (p, i) {
-          var title = lang === 'en' ? p.title_en : p.title_fa;
+          var title = lang === 'en' ? p.title_en : (lang === 'ar' ? (p.title_ar || p.title_en) : p.title_fa);
           var excerpt = lang === 'en' ? p.excerpt_en : p.excerpt_fa;
           var tag = lang === 'en' ? p.tag_en : p.tag_fa;
           var link = lang === 'en' ? p.link_en : p.link_fa;
@@ -193,8 +193,8 @@
       .then(function (data) {
         var projects = data.projects || [];
         container.innerHTML = projects.map(function (p, i) {
-          var title = lang === 'en' ? p.title_en : p.title_fa;
-          var role = lang === 'en' ? (p.role_en || '') : (p.role_fa || '');
+          var title = lang === 'en' ? p.title_en : (lang === 'ar' ? (p.title_ar || p.title_en) : p.title_fa);
+          var role = lang === 'en' ? (p.role_en || '') : (lang === 'ar' ? (p.role_ar || p.role_en || '') : (p.role_fa || ''));
           var idx = (i + 1 < 10 ? '0' : '') + (i + 1);
           return (
             '<div class="card project-card">' +
