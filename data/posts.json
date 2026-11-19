@@ -1,6 +1,20 @@
 {
-  "_readme": "این فایل، لیست مقالات وبلاگ رو مدیریت می‌کنه (هم در صفحه اصلی و هم در صفحه‌ی وبلاگ). برای افزودن مقاله‌ی جدید: ۱) یک فایل html جدید برای متن کامل مقاله در پوشه‌ی blog/ (و نسخه انگلیسی در en/blog/) بساز — می‌توانی از blog/lean-construction-chist.html به‌عنوان قالب استفاده کنی. ۲) یک آبجکت جدید به آرایه‌ی posts زیر اضافه کن و status را 'published' بگذار. جدیدترین مقاله را همیشه در ابتدای آرایه قرار بده (ترتیب نمایش = ترتیب آرایه). برای آیکون از یکی از این مقادیر استفاده کن: lean, pm, km, risk, training, expert — یا آن را خالی بگذار تا آیکون پیش‌فرض استفاده شود.",
+  "_readme": "این فایل خودکار از content/posts ساخته می‌شود؛ دستی ویرایش نکن. مقاله‌های قدیمی (HTML دستی) در data/posts-legacy.json هستند. برای مقاله جدید فقط فایل‌های .fa.md و .en.md را در content/posts بساز.",
   "posts": [
+    {
+      "id": "constraint-log",
+      "status": "published",
+      "date": "2026-11-23",
+      "icon": "lean",
+      "tag_fa": "LAST PLANNER SYSTEM",
+      "tag_en": "LAST PLANNER SYSTEM",
+      "title_fa": "فهرست محدودیتی که مسئول و تاریخ نداشته باشه، فقط یه نگرانیه",
+      "title_en": "A Constraint Without an Owner and a Date Is Just a Worry",
+      "excerpt_fa": "چطور فهرست محدودیت‌ها در سیستم آخرین برنامه‌ریز (LPS) واقعاً کار کنه: مسئول، تاریخ، راستی‌آزمایی و ارتباط با برنامه هفتگی و PPC.",
+      "excerpt_en": "How to make a Last Planner System constraint log actually work: owners, dates, verifying constraints, and the link to the weekly work plan and PPC.",
+      "link_fa": "blog/constraint-log.html",
+      "link_en": "en/blog/constraint-log.html"
+    },
     {
       "id": "takt-planning",
       "status": "published",
