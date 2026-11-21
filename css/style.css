@@ -849,3 +849,17 @@ html[dir="rtl"] .feature-inner { margin-left: auto; }
   .hero-cred { gap: 8px; }
   .chip-glass { font-size: 12px; padding: 5px 11px; }
 }
+
+
+/* ---------- Article extras: figure, caption, numbered lists, tables ---------- */
+.article img { margin: 22px auto 8px; border: 1px solid var(--line); border-radius: 12px; background: #fff; height: auto; }
+.article p > em:only-child { display: block; text-align: center; color: var(--ink-soft); font-size: 13.5px; line-height: 1.6; font-style: normal; }
+.article ol { margin: 0 0 16px; padding-inline-start: 4px; list-style-position: outside; margin-inline-start: 22px; color: #334155; }
+.article ol li { margin-bottom: 10px; padding-inline-start: 6px; }
+.article ol li::marker { color: var(--primary); font-weight: 700; }
+html[dir="rtl"] .article ol { list-style-type: persian; }
+.article strong { color: var(--navy); }
+.article table { display: block; overflow-x: auto; width: 100%; border-collapse: collapse; margin: 22px 0; font-size: 14.5px; }
+.article th { background: var(--navy); color: #fff; text-align: start; padding: 10px 14px; font-weight: 700; }
+.article td { padding: 10px 14px; border-bottom: 1px solid var(--line); vertical-align: top; color: #334155; }
+.article tbody tr:nth-child(even) { background: var(--primary-tint); }

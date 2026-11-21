@@ -150,7 +150,10 @@
     fetch(root + 'data/posts.json')
       .then(function (res) { return res.json(); })
       .then(function (data) {
-        var posts = data.posts || [];
+        var posts = (data.posts || []).filter(function (p) {
+          var l = lang === 'en' ? p.link_en : p.link_fa;
+          return p.status !== 'published' || !!l;
+        });
         if (limit) posts = posts.slice(0, limit);
         container.innerHTML = posts.map(function (p, i) {
           var title = lang === 'en' ? p.title_en : (lang === 'ar' ? (p.title_ar || p.title_en) : p.title_fa);

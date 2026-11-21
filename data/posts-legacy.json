@@ -44,17 +44,31 @@
       "link_en": "en/blog/lean-construction.html"
     },
     {
-      "id": "primavera-p6",
-      "status": "soon",
-      "date": "2026-08-15",
-      "icon": "pm",
-      "tag_fa": "به‌زودی",
-      "tag_en": "COMING SOON",
-      "title_fa": "Primavera P6 چطور بهره‌وری زمان‌بندی پروژه را بالا می‌برد؟",
-      "title_en": "How Primavera P6 Improves Project Scheduling Productivity",
-      "excerpt_fa": "این مقاله در حال آماده‌سازی است.",
-      "excerpt_en": "This article is being prepared.",
-      "link_fa": "",
+      "id": "lps-practical-flow",
+      "status": "published",
+      "date": "2026-07-30",
+      "icon": "lean",
+      "tag_fa": "LEAN CONSTRUCTION",
+      "tag_en": "LEAN CONSTRUCTION",
+      "title_fa": "سیستم آخرین برنامه‌ریز (LPS): راهکاری عملی برای بهبود جریان کار در پروژه‌های عمرانی",
+      "title_en": "",
+      "excerpt_fa": "معرفی Last Planner System و نقش آن در بهبود جریان کار، کاهش هدررفت و افزایش قابلیت اطمینان برنامه‌ریزی.",
+      "excerpt_en": "",
+      "link_fa": "articles/post-2026-07-30.html",
+      "link_en": ""
+    },
+    {
+      "id": "lps-productivity",
+      "status": "published",
+      "date": "2026-07-31",
+      "icon": "lean",
+      "tag_fa": "LEAN CONSTRUCTION",
+      "tag_en": "LEAN CONSTRUCTION",
+      "title_fa": "پیاده‌سازی سیستم آخرین برنامه‌ریز (LPS): کلید افزایش بهره‌وری در ساخت‌وساز ناب",
+      "title_en": "",
+      "excerpt_fa": "گام‌های عملی پیاده‌سازی LPS در پروژه‌های ساخت، از برنامه master و پیوندهای کار تا جلسات هفتگی و شاخص PPC.",
+      "excerpt_en": "",
+      "link_fa": "articles/post-2026-07-31.html",
       "link_en": ""
     }
   ]
