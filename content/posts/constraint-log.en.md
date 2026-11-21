@@ -75,4 +75,4 @@ A spreadsheet is enough. The value is in the conversation the table forces, not 
 ## Sources
 
 - Ballard, G. and Howell, G., work on the Last Planner System, and the Lean Construction Institute.
-- Donarumo, D. and Zandy, J., *The Lean Builder*, Lulu Publishing Services, 2019. This article rewrites ideas in my own words; the figure and examples are my own.
+- Donarumo, D. and Zandy, J., *The Lean Builder*, Lulu Publishing Services, 2019. 
