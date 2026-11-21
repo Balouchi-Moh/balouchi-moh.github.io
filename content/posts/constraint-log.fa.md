@@ -75,4 +75,4 @@ excerpt: "لاگ محدودیت چیست، ستون وضعیت آن را چطو�
 ## منابع
 
 - Ballard, G. and Howell, G.، کارهای مربوط به Last Planner System، و Lean Construction Institute.
-- Donarumo, D. and Zandy, J., *The Lean Builder*, Lulu Publishing Services, 2019. این مقاله ایده‌ها را با زبان خود نگارنده بازنویسی کرده است؛ شکل و مثال‌ها از خود اوست.
+- Donarumo, D. and Zandy, J., *The Lean Builder*, Lulu Publishing Services, 2019.
