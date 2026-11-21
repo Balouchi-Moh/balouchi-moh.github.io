@@ -863,3 +863,14 @@ html[dir="rtl"] .article ol { list-style-type: persian; }
 .article th { background: var(--navy); color: #fff; text-align: start; padding: 10px 14px; font-weight: 700; }
 .article td { padding: 10px 14px; border-bottom: 1px solid var(--line); vertical-align: top; color: #334155; }
 .article tbody tr:nth-child(even) { background: var(--primary-tint); }
+
+/* ---------- RTL hardening for Persian articles ---------- */
+html[dir="rtl"] .article { direction: rtl; text-align: right; }
+html[dir="rtl"] .article h1,
+html[dir="rtl"] .article h2,
+html[dir="rtl"] .article li,
+html[dir="rtl"] .article th,
+html[dir="rtl"] .article td { direction: rtl; text-align: right; }
+html[dir="rtl"] .article p { direction: rtl; text-align: justify; }
+html[dir="rtl"] .article p > em:only-child { text-align: center; }
+html[dir="rtl"] .article table { direction: rtl; }
