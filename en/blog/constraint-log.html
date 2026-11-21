@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>A Constraint Without an Owner and a Date Is Just a Worry | Mohammad Balouchi</title>
-<meta name="description" content="How to make a Last Planner System constraint log actually work: owners, dates, verifying constraints, and the link to the weekly work plan and PPC.">
+<title>The Constraint Log: A Simple Table That Makes Weekly Plans Reliable | Mohammad Balouchi</title>
+<meta name="description" content="What a constraint log is, how to read its status column, and how it keeps work that is not ready out of the weekly plan.">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="canonical" href="https://lean-construction.ir/en/blog/constraint-log.html">
 <link rel="stylesheet" href="../../css/style.css">
@@ -13,18 +13,18 @@
 <link rel="alternate" hreflang="x-default" href="https://lean-construction.ir/en/blog/constraint-log.html" />
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Dr. Mohammad Balouchi — Lean Construction">
-<meta property="og:title" content="A Constraint Without an Owner and a Date Is Just a Worry | Mohammad Balouchi">
-<meta property="og:description" content="How to make a Last Planner System constraint log actually work: owners, dates, verifying constraints, and the link to the weekly work plan and PPC.">
+<meta property="og:title" content="The Constraint Log: A Simple Table That Makes Weekly Plans Reliable | Mohammad Balouchi">
+<meta property="og:description" content="What a constraint log is, how to read its status column, and how it keeps work that is not ready out of the weekly plan.">
 <meta property="og:url" content="https://lean-construction.ir/en/blog/constraint-log.html">
 <meta property="og:image" content="https://lean-construction.ir/images/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="A Constraint Without an Owner and a Date Is Just a Worry | Mohammad Balouchi">
-<meta name="twitter:description" content="How to make a Last Planner System constraint log actually work: owners, dates, verifying constraints, and the link to the weekly work plan and PPC.">
+<meta name="twitter:title" content="The Constraint Log: A Simple Table That Makes Weekly Plans Reliable | Mohammad Balouchi">
+<meta name="twitter:description" content="What a constraint log is, how to read its status column, and how it keeps work that is not ready out of the weekly plan.">
 <meta name="twitter:image" content="https://lean-construction.ir/images/og-image.jpg">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "A Constraint Without an Owner and a Date Is Just a Worry | Mohammad Balouchi", "description": "How to make a Last Planner System constraint log actually work: owners, dates, verifying constraints, and the link to the weekly work plan and PPC.", "inLanguage": "en", "datePublished": "2026-11-23", "image": "https://lean-construction.ir/images/og-image.jpg", "mainEntityOfPage": "https://lean-construction.ir/en/blog/constraint-log.html", "author": {"@type": "Person", "name": "Dr. Mohammad Balouchi", "url": "https://lean-construction.ir/", "sameAs": ["https://www.linkedin.com/in/mohammad-balouchi"]}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "The Constraint Log: A Simple Table That Makes Weekly Plans Reliable | Mohammad Balouchi", "description": "What a constraint log is, how to read its status column, and how it keeps work that is not ready out of the weekly plan.", "inLanguage": "en", "datePublished": "2026-11-23", "image": "https://lean-construction.ir/images/og-image.jpg", "mainEntityOfPage": "https://lean-construction.ir/en/blog/constraint-log.html", "author": {"@type": "Person", "name": "Dr. Mohammad Balouchi", "url": "https://lean-construction.ir/", "sameAs": ["https://www.linkedin.com/in/mohammad-balouchi"]}}</script>
 </head>
 <body>
 
@@ -49,39 +49,86 @@
 <section style="padding:56px 0 20px;">
   <div class="wrap article">
     <div class="eyebrow">LAST PLANNER SYSTEM · 5 MIN READ</div>
-    <h1>A Constraint Without an Owner and a Date Is Just a Worry</h1>
-    <p class="lead">In the Last Planner System, the weekly work plan gets most of the attention. But a weekly plan is only as reliable as the look-ahead behind it, and the look-ahead only works if constraints are actually removed, not just listed.</p>
+    <h1>The Constraint Log: A Simple Table That Makes Weekly Plans Reliable</h1>
+    
 
-<h2>What a constraint is</h2>
-<p>A constraint is anything that stops a task from starting or finishing as planned: missing design information, materials that have not arrived, a crew still busy elsewhere, an approval, access to the work area. Clearing these before the work is due is what the LPS literature calls make-ready.</p>
-<h2>What a useful constraint log contains</h2>
-<p>A log is just a table. What makes it useful is that every line answers a few plain questions:</p>
+<p>Most weekly plans do not fail because crews are slow. They fail because the work was never ready to start. The drawing was not approved, the crane was not booked, the sleeves were missing. Everyone discovers it on the morning the crew arrives.</p>
+<p>The Last Planner System (LPS), developed by Glenn Ballard and Greg Howell and promoted by the Lean Construction Institute, deals with this with a very plain tool: the <strong>constraint log</strong>.</p>
+<h2>What is a constraint?</h2>
+<p>A constraint is anything that must be in place before an activity can start and finish as planned. Common groups are:</p>
 <ul>
-<li><strong>What?</strong> The exact constraint. "Rebar drawings for the level 3 slab are not approved" works; "design issues" does not.</li>
-<li><strong>Where?</strong> Which floor, which part of the work.</li>
-<li><strong>Who owns it?</strong> One named person, not a team or a department.</li>
-<li><strong>By when?</strong> Count backward from the planned start and leave time for the fix.</li>
-<li><strong>Where does it stand this week?</strong> Reviewed in every look-ahead meeting, not once a month.</li>
+<li><strong>Information:</strong> approved drawings, answered RFIs, specifications</li>
+<li><strong>Materials:</strong> delivery dates, approvals, storage</li>
+<li><strong>Equipment:</strong> cranes, hoists, scaffolding</li>
+<li><strong>Labor:</strong> the right crew, with the right skills, available that week</li>
+<li><strong>Prerequisite work:</strong> a preceding trade has finished and the area is handed over</li>
+<li><strong>Permits and space:</strong> inspections, access, work-area conflicts</li>
 </ul>
-<h2>Check that it is a real constraint (from The Lean Builder)</h2>
-<p>In Chapter 4 of <em>The Lean Builder</em> (Joe Donarumo and Keyan Zandy), a story shows how such a list takes shape. After a morning of angry phone calls, a superintendent writes every open issue on a whiteboard. When the team reviews it the next morning, two of the first three items turn out not to be problems at all. One was a ceiling clash with ductwork that a design revision had already solved, but the foreman never received that revision. The other was a restroom assumed to be public that was actually for staff. Only the third was real: the electrical and architectural drawings disagreed.</p>
-<p>The lesson is simple: before you escalate something, check that it really is a constraint. In the same story, the superintendent who had just shouted at the architect realizes he had not checked any of these items before making the call.</p>
-<h2>Put the list in front of everyone</h2>
-<p>In the book, the board is reviewed at the morning huddle. A team member adds a "who" column, then the architect adds a "when" column and writes a date next to her name, which turns it into a commitment. After that, the trades start adding issues themselves and sort them out face to face after the meeting, instead of everything going through the superintendent. The point for LPS is that a constraint log works best when it belongs to everyone, not to one person.</p>
-<h2>Where logs go wrong</h2>
+<h2>The log itself</h2>
+<p>The log is a table with one line per constraint. A basic version needs five columns: the activity, the constraint, the owner, the due date and the status.</p>
+<p><img alt="Constraint log example: four activities with their constraints, owners, due dates and status, followed by the flow from look-ahead to weekly plan" src="/images/constraint-log-figure-en.svg" /></p>
+<p><em>Figure 1. An illustrative constraint log. The rows are examples, not data from a real project. Own drawing.</em></p>
+<p>Two details make the difference between a useful log and a list nobody reads:</p>
+<ol>
+<li><strong>Write the constraint precisely.</strong> "Drawings" is a topic. "Rebar shop drawings for the L3 slab not approved" is a constraint someone can act on.</li>
+<li><strong>Give every line one named owner and a due date.</strong> A constraint owned by "the team" is owned by nobody.</li>
+</ol>
+<h2>Reading the status column</h2>
+<table>
+<thead>
+<tr>
+<th>Status</th>
+<th>Meaning</th>
+<th>What it triggers</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Open</strong></td>
+<td>The constraint is not resolved.</td>
+<td>The activity is not ready. It stays out of the weekly plan.</td>
+</tr>
+<tr>
+<td><strong>At risk</strong></td>
+<td>Not resolved yet, and the due date is close or the owner is unsure.</td>
+<td>Follow up now, or prepare an alternative.</td>
+</tr>
+<tr>
+<td><strong>Cleared</strong></td>
+<td>The constraint is resolved.</td>
+<td>When all constraints of an activity are cleared, the activity is ready.</td>
+</tr>
+</tbody>
+</table>
+<p>These three labels are a simple convention used in this article. LPS does not prescribe a fixed set. Some teams use only open and closed, others add colors or dates. Pick one set and keep it consistent.</p>
+<h2>How the log feeds the weekly plan</h2>
+<p>The log connects two LPS steps:</p>
+<ol>
+<li><strong>Look-ahead planning.</strong> Looking several weeks ahead, the team lists what each upcoming activity needs and writes down every constraint it finds.</li>
+<li><strong>Making work ready.</strong> Owners work to clear their constraints before the activity's week arrives. This is the heart of make-ready.</li>
+</ol>
+<p>Then, in the weekly planning meeting, one rule applies: <strong>only activities with no open constraint enter the weekly work plan.</strong> Crews commit to work that can actually be done. That is why this small habit supports a higher PPC (Percent Plan Complete), the share of planned tasks that were completed as planned. When a task is missed, the reason can be traced back to a constraint that was or was not on the log.</p>
+<h2>Common mistakes</h2>
 <ul>
-<li>They are filled in once and never touched again.</li>
-<li>The date is when someone hopes to solve the problem, not when the work needs it.</li>
-<li>The constraint is written down, but the task still goes into the weekly plan.</li>
-<li>Nobody checks whether a missed commitment came from an open constraint.</li>
+<li><strong>A log kept by one planner alone.</strong> Constraints are found in the field and in design and procurement offices. The whole team has to feed it.</li>
+<li><strong>Vague entries and no owner.</strong> See above.</li>
+<li><strong>Logging but never reviewing.</strong> The log has to be read in every weekly meeting, not only filled in.</li>
+<li><strong>Hiding "at risk".</strong> If something is slipping, mark it at risk early, while there is still time to react.</li>
+<li><strong>Treating the log as a blame list.</strong> Its purpose is to remove obstacles, not to find who is guilty.</li>
 </ul>
-<h2>How it connects to the weekly plan and PPC</h2>
-<p>The make-ready rule is simple: a task enters the weekly work plan only when its constraints are cleared. Ballard and Howell describe criteria for a good assignment (definition, soundness, sequence, size and learning), and a task with an open constraint fails the soundness test. PPC then closes the loop: when a promise is missed, write down why. If many misses trace back to constraints nobody cleared, the problem sits in the look-ahead and the log, not with the crews.</p>
-<h2>A weekly habit, not a document</h2>
-<p>Spend ten minutes of each look-ahead meeting going through the log line by line: what was cleared, what is due next, and who is stuck. If a line has no owner or no date, fix that first.</p>
-<p><em>This article summarizes published LPS practice and uses a story from the book to illustrate it; it is not a report from a specific project.</em></p>
-<p><strong>Sources:</strong> Lean Construction Institute, Last Planner System Workbook; Glenn Ballard and Greg Howell. Joe Donarumo and Keyan Zandy, The Lean Builder: A Builder's Guide to Applying Lean Tools in the Field, Chapter 4 (Managing Constraints). [add publisher and year]</p>
-<p><strong>Question for planners:</strong> which is harder where you work: finding constraints early, or clearing them in time?</p>
+<h2>How to start this week</h2>
+<ol>
+<li>Take next week's planned activities.</li>
+<li>For each one, ask: what has to be true before the crew starts?</li>
+<li>Write each answer as one line with an owner and a due date.</li>
+<li>Review the log for 10 minutes in your next planning meeting, and plan only the activities that are ready.</li>
+</ol>
+<p>A spreadsheet is enough. The value is in the conversation the table forces, not in the software.</p>
+<h2>Sources</h2>
+<ul>
+<li>Ballard, G. and Howell, G., work on the Last Planner System, and the Lean Construction Institute.</li>
+<li>Donarumo, D. and Zandy, J., <em>The Lean Builder</em>, Lulu Publishing Services, 2019. This article rewrites ideas in my own words; the figure and examples are my own.</li>
+</ul>
 
     <div class="alt" style="margin-top:40px;border-radius:var(--radius);padding:32px;text-align:center;">
       <h2 style="margin-top:0;font-size:19px;">Want a review of how your site plans its week?</h2>

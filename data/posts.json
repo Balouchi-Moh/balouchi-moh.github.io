@@ -8,10 +8,10 @@
       "icon": "lean",
       "tag_fa": "LAST PLANNER SYSTEM",
       "tag_en": "LAST PLANNER SYSTEM",
-      "title_fa": "فهرست محدودیتی که مسئول و تاریخ نداشته باشه، فقط یه نگرانیه",
-      "title_en": "A Constraint Without an Owner and a Date Is Just a Worry",
-      "excerpt_fa": "چطور فهرست محدودیت‌ها در سیستم آخرین برنامه‌ریز (LPS) واقعاً کار کنه: مسئول، تاریخ، راستی‌آزمایی و ارتباط با برنامه هفتگی و PPC.",
-      "excerpt_en": "How to make a Last Planner System constraint log actually work: owners, dates, verifying constraints, and the link to the weekly work plan and PPC.",
+      "title_fa": "لاگ محدودیت‌ها (Constraint Log): جدولی ساده که برنامه‌ی هفتگی را قابل اتکا می‌کند",
+      "title_en": "The Constraint Log: A Simple Table That Makes Weekly Plans Reliable",
+      "excerpt_fa": "لاگ محدودیت چیست، ستون وضعیت آن را چطور بخوانیم و چطور کاری را که آماده نیست از برنامه‌ی هفتگی بیرون نگه می‌دارد.",
+      "excerpt_en": "What a constraint log is, how to read its status column, and how it keeps work that is not ready out of the weekly plan.",
       "link_fa": "blog/constraint-log.html",
       "link_en": "en/blog/constraint-log.html"
     },
@@ -44,6 +44,34 @@
       "link_en": "en/blog/km-mistakes.html"
     },
     {
+      "id": "lps-productivity",
+      "status": "published",
+      "date": "2026-07-31",
+      "icon": "lean",
+      "tag_fa": "LEAN CONSTRUCTION",
+      "tag_en": "LEAN CONSTRUCTION",
+      "title_fa": "پیاده‌سازی سیستم آخرین برنامه‌ریز (LPS): کلید افزایش بهره‌وری در ساخت‌وساز ناب",
+      "title_en": "",
+      "excerpt_fa": "گام‌های عملی پیاده‌سازی LPS در پروژه‌های ساخت، از برنامه master و پیوندهای کار تا جلسات هفتگی و شاخص PPC.",
+      "excerpt_en": "",
+      "link_fa": "articles/post-2026-07-31.html",
+      "link_en": ""
+    },
+    {
+      "id": "lps-practical-flow",
+      "status": "published",
+      "date": "2026-07-30",
+      "icon": "lean",
+      "tag_fa": "LEAN CONSTRUCTION",
+      "tag_en": "LEAN CONSTRUCTION",
+      "title_fa": "سیستم آخرین برنامه‌ریز (LPS): راهکاری عملی برای بهبود جریان کار در پروژه‌های عمرانی",
+      "title_en": "",
+      "excerpt_fa": "معرفی Last Planner System و نقش آن در بهبود جریان کار، کاهش هدررفت و افزایش قابلیت اطمینان برنامه‌ریزی.",
+      "excerpt_en": "",
+      "link_fa": "articles/post-2026-07-30.html",
+      "link_en": ""
+    },
+    {
       "id": "lean-construction-chist",
       "status": "published",
       "date": "2026-07-20",
@@ -56,20 +84,6 @@
       "excerpt_en": "An introduction to Lean Construction principles and their practical use in reducing resource waste on construction sites.",
       "link_fa": "blog/lean-construction-chist.html",
       "link_en": "en/blog/lean-construction.html"
-    },
-    {
-      "id": "primavera-p6",
-      "status": "soon",
-      "date": "2026-08-15",
-      "icon": "pm",
-      "tag_fa": "به‌زودی",
-      "tag_en": "COMING SOON",
-      "title_fa": "Primavera P6 چطور بهره‌وری زمان‌بندی پروژه را بالا می‌برد؟",
-      "title_en": "How Primavera P6 Improves Project Scheduling Productivity",
-      "excerpt_fa": "این مقاله در حال آماده‌سازی است.",
-      "excerpt_en": "This article is being prepared.",
-      "link_fa": "",
-      "link_en": ""
     }
   ]
 }
