@@ -27,7 +27,7 @@ A constraint is anything that must be in place before an activity can start and 
 
 The log is a table with one line per constraint. A basic version needs five columns: the activity, the constraint, the owner, the due date and the status.
 
-![Constraint log example: four activities with their constraints, owners, due dates and status, followed by the flow from look-ahead to weekly plan](/assets/img/constraint-log-figure-en.svg)
+![Constraint log example: four activities with their constraints, owners, due dates and status, followed by the flow from look-ahead to weekly plan](images/constraint-log-figure-en.svg)
 
 *Figure 1. An illustrative constraint log. The rows are examples, not data from a real project. Own drawing.*
 
