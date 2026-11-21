@@ -1,55 +1,80 @@
 ---
-slug: constraint-log
-date: 2026-11-23
-status: published
-icon: lean
-tag: LAST PLANNER SYSTEM
-read_time: 5
-title: A Constraint Without an Owner and a Date Is Just a Worry
-excerpt: How to make a Last Planner System constraint log actually work: owners, dates, verifying constraints, and the link to the weekly work plan and PPC.
-lead: In the Last Planner System, the weekly work plan gets most of the attention. But a weekly plan is only as reliable as the look-ahead behind it, and the look-ahead only works if constraints are actually removed, not just listed.
+title: "The Constraint Log: A Simple Table That Makes Weekly Plans Reliable"
+description: "What a constraint log is, how to read its status column, and how it keeps unready work out of the weekly plan."
+lang: en
+status: draft
+date: 
 ---
-## What a constraint is
 
-A constraint is anything that stops a task from starting or finishing as planned: missing design information, materials that have not arrived, a crew still busy elsewhere, an approval, access to the work area. Clearing these before the work is due is what the LPS literature calls make-ready.
+<div class="post-body" lang="en" dir="ltr">
 
-## What a useful constraint log contains
+Most weekly plans do not fail because crews are slow. They fail because the work was never ready to start. The drawing was not approved, the crane was not booked, the sleeves were missing. Everyone discovers it on the morning the crew arrives.
 
-A log is just a table. What makes it useful is that every line answers a few plain questions:
+The Last Planner System (LPS), developed by Glenn Ballard and Greg Howell and promoted by the Lean Construction Institute, deals with this with a very plain tool: the **constraint log**.
 
-- **What?** The exact constraint. "Rebar drawings for the level 3 slab are not approved" works; "design issues" does not.
-- **Where?** Which floor, which part of the work.
-- **Who owns it?** One named person, not a team or a department.
-- **By when?** Count backward from the planned start and leave time for the fix.
-- **Where does it stand this week?** Reviewed in every look-ahead meeting, not once a month.
+## What is a constraint?
 
-## Check that it is a real constraint (from The Lean Builder)
+A constraint is anything that must be in place before an activity can start and finish as planned. Common groups are:
 
-In Chapter 4 of *The Lean Builder* (Joe Donarumo and Keyan Zandy), a story shows how such a list takes shape. After a morning of angry phone calls, a superintendent writes every open issue on a whiteboard. When the team reviews it the next morning, two of the first three items turn out not to be problems at all. One was a ceiling clash with ductwork that a design revision had already solved, but the foreman never received that revision. The other was a restroom assumed to be public that was actually for staff. Only the third was real: the electrical and architectural drawings disagreed.
+- **Information:** approved drawings, answered RFIs, specifications
+- **Materials:** delivery dates, approvals, storage
+- **Equipment:** cranes, hoists, scaffolding
+- **Labor:** the right crew, with the right skills, available that week
+- **Prerequisite work:** a preceding trade has finished and the area is handed over
+- **Permits and space:** inspections, access, work-area conflicts
 
-The lesson is simple: before you escalate something, check that it really is a constraint. In the same story, the superintendent who had just shouted at the architect realizes he had not checked any of these items before making the call.
+## The log itself
 
-## Put the list in front of everyone
+The log is a table with one line per constraint. A basic version needs five columns: the activity, the constraint, the owner, the due date and the status.
 
-In the book, the board is reviewed at the morning huddle. A team member adds a "who" column, then the architect adds a "when" column and writes a date next to her name, which turns it into a commitment. After that, the trades start adding issues themselves and sort them out face to face after the meeting, instead of everything going through the superintendent. The point for LPS is that a constraint log works best when it belongs to everyone, not to one person.
+![Constraint log example: four activities with their constraints, owners, due dates and status, followed by the flow from look-ahead to weekly plan](/assets/img/constraint-log-figure-en.svg)
 
-## Where logs go wrong
+*Figure 1. An illustrative constraint log. The rows are examples, not data from a real project. Own drawing.*
 
-- They are filled in once and never touched again.
-- The date is when someone hopes to solve the problem, not when the work needs it.
-- The constraint is written down, but the task still goes into the weekly plan.
-- Nobody checks whether a missed commitment came from an open constraint.
+Two details make the difference between a useful log and a list nobody reads:
 
-## How it connects to the weekly plan and PPC
+1. **Write the constraint precisely.** "Drawings" is a topic. "Rebar shop drawings for the L3 slab not approved" is a constraint someone can act on.
+2. **Give every line one named owner and a due date.** A constraint owned by "the team" is owned by nobody.
 
-The make-ready rule is simple: a task enters the weekly work plan only when its constraints are cleared. Ballard and Howell describe criteria for a good assignment (definition, soundness, sequence, size and learning), and a task with an open constraint fails the soundness test. PPC then closes the loop: when a promise is missed, write down why. If many misses trace back to constraints nobody cleared, the problem sits in the look-ahead and the log, not with the crews.
+## Reading the status column
 
-## A weekly habit, not a document
+| Status | Meaning | What it triggers |
+| --- | --- | --- |
+| **Open** | The constraint is not resolved. | The activity is not ready. It stays out of the weekly plan. |
+| **At risk** | Not resolved yet, and the due date is close or the owner is unsure. | Follow up now, or prepare an alternative. |
+| **Cleared** | The constraint is resolved. | When all constraints of an activity are cleared, the activity is ready. |
 
-Spend ten minutes of each look-ahead meeting going through the log line by line: what was cleared, what is due next, and who is stuck. If a line has no owner or no date, fix that first.
+These three labels are a simple convention used in this article. LPS does not prescribe a fixed set. Some teams use only open and closed, others add colors or dates. Pick one set and keep it consistent.
 
-*This article summarizes published LPS practice and uses a story from the book to illustrate it; it is not a report from a specific project.*
+## How the log feeds the weekly plan
 
-**Sources:** Lean Construction Institute, Last Planner System Workbook; Glenn Ballard and Greg Howell. Joe Donarumo and Keyan Zandy, The Lean Builder: A Builder's Guide to Applying Lean Tools in the Field, Chapter 4 (Managing Constraints). [add publisher and year]
+The log connects two LPS steps:
 
-**Question for planners:** which is harder where you work: finding constraints early, or clearing them in time?
+1. **Look-ahead planning.** Looking several weeks ahead, the team lists what each upcoming activity needs and writes down every constraint it finds.
+2. **Making work ready.** Owners work to clear their constraints before the activity's week arrives. This is the heart of make-ready.
+
+Then, in the weekly planning meeting, one rule applies: **only activities with no open constraint enter the weekly work plan.** Crews commit to work that can actually be done. That is why this small habit supports a higher PPC (Percent Plan Complete), the share of planned tasks that were completed as planned. When a task is missed, the reason can be traced back to a constraint that was or was not on the log.
+
+## Common mistakes
+
+- **A log kept by one planner alone.** Constraints are found in the field and in design and procurement offices. The whole team has to feed it.
+- **Vague entries and no owner.** See above.
+- **Logging but never reviewing.** The log has to be read in every weekly meeting, not only filled in.
+- **Hiding "at risk".** If something is slipping, mark it at risk early, while there is still time to react.
+- **Treating the log as a blame list.** Its purpose is to remove obstacles, not to find who is guilty.
+
+## How to start this week
+
+1. Take next week's planned activities.
+2. For each one, ask: what has to be true before the crew starts?
+3. Write each answer as one line with an owner and a due date.
+4. Review the log for 10 minutes in your next planning meeting, and plan only the activities that are ready.
+
+A spreadsheet is enough. The value is in the conversation the table forces, not in the software.
+
+## Sources
+
+- Ballard, G. and Howell, G., work on the Last Planner System, and the Lean Construction Institute.
+- Donarumo, D. and Zandy, J., *The Lean Builder*, Lulu Publishing Services, 2019. This article rewrites ideas in my own words; the figure and examples are my own.
+
+</div>
