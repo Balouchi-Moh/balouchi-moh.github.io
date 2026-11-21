@@ -8,9 +8,9 @@
       "icon": "lean",
       "tag_fa": "LAST PLANNER SYSTEM",
       "tag_en": "LAST PLANNER SYSTEM",
-      "title_fa": "لاگ محدودیت‌ها (Constraint Log): جدولی ساده که برنامه‌ی هفتگی را قابل اتکا می‌کند",
+      "title_fa": "لاگ محدودیت‌ها (Constraint Log): جدولی ساده که برنامه‌ی هفتگی را قابل‌اعتماد می‌کند",
       "title_en": "The Constraint Log: A Simple Table That Makes Weekly Plans Reliable",
-      "excerpt_fa": "لاگ محدودیت چیست، ستون وضعیت آن را چطور بخوانیم و چطور کاری را که آماده نیست از برنامه‌ی هفتگی بیرون نگه می‌دارد.",
+      "excerpt_fa": "لاگ محدودیت چیست، ستون وضعیت آن را چطور بخوانیم و چطور کاری را که هنوز آماده نیست از برنامه‌ی هفتگی بیرون نگه می‌دارد.",
       "excerpt_en": "What a constraint log is, how to read its status column, and how it keeps work that is not ready out of the weekly plan.",
       "link_fa": "blog/constraint-log.html",
       "link_en": "en/blog/constraint-log.html"
