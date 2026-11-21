@@ -75,4 +75,4 @@ excerpt: "لاگ محدودیت چیست، ستون وضعیت آن را چطو�
 ## منابع
 
 - کارهای گلن بالارد و گرگ هاول درباره‌ی Last Planner System، و مؤسسه‌ی Lean Construction Institute.
-- کتاب *The Lean Builder* نوشته‌ی Donarumo و Zandy، ناشر Lulu Publishing Services، سال ۲۰۱۹. ایده‌های این مقاله را با زبان خودم بازنویسی کرده‌ام؛ شکل و مثال‌ها نیز کار خودم است.
+- کتاب *The Lean Builder* نوشته‌ی Donarumo و Zandy، ناشر Lulu Publishing Services، سال ۲۰۱۹.
