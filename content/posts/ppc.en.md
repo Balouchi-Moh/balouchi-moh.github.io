@@ -26,7 +26,7 @@ The commitments are the ones the last planners (foremen and trade leads) made in
 
 *Illustrative example (numbers invented for explanation):* a team makes 12 commitments for the week and 9 are complete. PPC is 9 ÷ 12 = 75%. One of the three misses is a crew that finished everything on a level except a single riser. That is still a miss, because the next trade could not start.
 
-![PPC example: 12 commitments made, 9 completed, PPC = 75% (illustrative numbers)](/images/ppc-figure-en.png)
+![PPC example: 12 commitments made, 9 completed, PPC = 75% (illustrative numbers)](/content/post/images/ppc-figure-en.png)
 
 Why measure promise reliability at all? In LPS, the schedule is a forecast, and the people closest to the work make the real weekly promises. Downstream crews plan around those promises. The lean construction literature reports that in traditional practice only about half of the tasks assigned for a given week are completed (Ballard & Howell's measurements, as summarized in Forbes & Ahmed, 2010). When promises are unreliable, every successor trade pays for it.
 
