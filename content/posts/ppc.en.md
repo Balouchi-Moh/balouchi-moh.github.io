@@ -2,7 +2,7 @@
 title: "PPC: What It Measures and What It Doesn't"
 date: 2026-11-26
 lang: en
-status: draft
+status: published
 tags: [Lean Construction, Last Planner System, PPC, Weekly Work Plan]
 summary: "Percent Plan Complete is the most quoted number in Last Planner System. Here is what it actually tells you, three ways teams misread it, and why the reasons behind missed commitments matter more than the score."
 ---
