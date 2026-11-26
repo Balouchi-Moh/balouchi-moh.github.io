@@ -2,6 +2,20 @@
   "_readme": "این فایل خودکار از content/posts ساخته می‌شود؛ دستی ویرایش نکن. مقاله‌های قدیمی (HTML دستی) در data/posts-legacy.json هستند. برای مقاله جدید فقط فایل‌های .fa.md و .en.md را در content/posts بساز.",
   "posts": [
     {
+      "id": "ppc",
+      "status": "published",
+      "date": "2026-11-27",
+      "icon": "lean",
+      "tag_fa": "LAST PLANNER SYSTEM",
+      "tag_en": "LAST PLANNER SYSTEM",
+      "title_fa": "PPC: چه چیزی را اندازه می‌گیرد و چه چیزی را نه",
+      "title_en": "PPC: What It Measures and What It Doesn't",
+      "excerpt_fa": "PPC نشان می‌دهد قول‌های هفتگی چقدر قابل‌اتکا بوده‌اند، نه اینکه چه مقدار کار انجام شده. این عدد چه می‌گوید، کجا اشتباه خوانده می‌شود و چرا علت تعهدهای ناکام از خود نمره مهم‌ترند.",
+      "excerpt_en": "PPC measures how reliable weekly commitments are, not how much work was done. What it tells you, how it gets misread, and why the reasons behind missed commitments matter most.",
+      "link_fa": "blog/ppc.html",
+      "link_en": "en/blog/ppc.html"
+    },
+    {
       "id": "constraint-log",
       "status": "published",
       "date": "2026-11-23",

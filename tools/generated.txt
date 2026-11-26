@@ -1,2 +1,4 @@
 blog/constraint-log.html
+blog/ppc.html
 en/blog/constraint-log.html
+en/blog/ppc.html
