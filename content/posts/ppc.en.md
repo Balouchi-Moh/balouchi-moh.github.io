@@ -6,6 +6,7 @@ icon: lean
 tag: LAST PLANNER SYSTEM
 read_time: 5
 title: "PPC: What It Measures and What It Doesn't"
+excerpt: "PPC measures how reliable weekly commitments are, not how much work was done. What it tells you, how it gets misread, and why the reasons behind missed commitments matter most."
 ---
 
 A weekly PPC of 90% sounds like a project under control. It might be. It might also mean your crews are only promising what is easy.
